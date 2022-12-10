@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "hcaptcha-solver": "^1.0.2",
+    "keypress": "^0.2.1",
+    "prompt-sync": "^4.2.0",
+    "prompts": "^2.4.2",
+    "puppeteer": "^19.3.0",
+    "puppeteer-chromium-resolver": "^19.1.0",
+    "puppeteer-cmp-clicker": "^1.0.3"
+  }
+}
