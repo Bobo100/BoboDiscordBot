@@ -143,6 +143,9 @@ def catch(driver):
 
 
 if __name__ == '__main__':
+    
+    if(not os.path.isdir(os.path.join(base_path, "data"))):
+        os.mkdir(os.path.join(base_path, "data"))
 
     if (os.path.exists(os.path.join(base_path, "data", "account_data.json"))):
         f = open(os.path.join(base_path, "data",
