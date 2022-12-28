@@ -22,10 +22,20 @@ def random_char(y):
 
 if __name__ == '__main__':
     base_path = os.path.dirname(os.path.abspath(__file__))
-
-    f = open(os.path.join(base_path, "data", "account_data.json"), encoding="utf-8")
-    accuont_data = json.load(f)
-    f.close()
+    file_path = os.path.join(base_path, "data",
+                             "account_data.json")
+    if os.path.exists(file_path):
+        f = open(file_path, encoding="utf-8")
+        accuont_data = json.load(f)
+        f.close()
+    else:
+        with open(file_path, 'w', encoding='utf-8') as f:
+            accuont_data = {
+                "username": "your dc account",
+                "userpassword": "your dc password",
+                "channel_url": "https://your_channel.com"
+            }
+            json.dump(accuont_data, f)
 
     username = input('請輸入DC帳號') or accuont_data["username"]
     print(username)
@@ -54,7 +64,12 @@ if __name__ == '__main__':
         driver = webdriver.Edge(
             EdgeChromiumDriverManager().install(), options=options)
 
-    driver.get(channel_url)
+    time.sleep(2)
+    try:
+        driver.get(channel_url)
+    except:
+        print("頻道網址不正確")
+        exit()
     # time.sleep(3)
     # driver.find_element(By.CSS_SELECTOR,  "#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div > div > section > div.centeringWrapper-dGnJPQ > button.marginTop8-24uXGp.marginCenterHorz-574Oxy.linkButton-2ax8wP.button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F").click()
     time.sleep(2)
@@ -63,9 +78,10 @@ if __name__ == '__main__':
     time.sleep(1)
     driver.find_element(By.CSS_SELECTOR,  "#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div > div > div > form > div.centeringWrapper-dGnJPQ > div > div.mainLoginContainer-wHmAjP > div.block-3uVSn4.marginTop20-2T8ZJx > button.marginBottom8-emkd0_.button-1cRKG6.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeLarge-3mScP9.fullWidth-fJIsjq.grow-2sR_-F").click()
     time.sleep(8)
+    
+    
     smallest = 5
     largest = 20
-
     while True:
         try:
             wait = WebDriverWait(driver, 10)

@@ -7,6 +7,19 @@
     "prompts": "^2.4.2",
     "puppeteer": "^19.3.0",
     "puppeteer-chromium-resolver": "^19.1.0",
-    "puppeteer-cmp-clicker": "^1.0.3"
+    "puppeteer-cmp-clicker": "^1.0.3",
+    "sweetalert2": "^11.6.15",
+    "user-agents": "^1.0.1229"
+  },
+  "scripts": {
+    "start": "node ./auto_catch_javascript_version/auto_type.js",
+    "build": "pkg ./auto_catch_javascript_version/auto_type.js -t node18-win-x64 -c package.json"
+  },
+  "main": "./auto_catch_javascript_version/auto_type.js",
+  "pkg": {
+    "assets": [
+      "auto_catch_javascript_version/my-extension",
+      "node_modules/**/*"
+    ]
   }
 }

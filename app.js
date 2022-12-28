@@ -1,16 +1,8 @@
 // 執行discord.bot
 const puppeteer = require("puppeteer");
-const { clickCmp } = require("puppeteer-cmp-clicker");
 const prompts = require("prompts");
 const PCR = require("puppeteer-chromium-resolver");
-const solveCaptcha = require("hcaptcha-solver");
 const fs = require("fs");
-
-let browser;
-let pages;
-let page1; //只要我吃飽
-let page2; //公子餅
-let response;
 
 const option = {
   revision: "",
@@ -26,59 +18,11 @@ const option = {
   silent: false,
 };
 
-const questions = [
-  {
-    type: "text",
-    name: "username",
-    message: "請輸入帳號",
-  },
-  {
-    type: "text",
-    name: "userpassword",
-    message: "請輸入密碼",
-  },
-  {
-    type: "confirm",
-    name: "value",
-    message: "要開啟瀏覽器嗎",
-    initial: false,
-  },
-  {
-    type: "text",
-    name: "channel_url",
-    message: "要抓寶可夢的網址1",
-    initial:
-      "https://discord.com/channels/771365222476808193/1047176056752316437",
-  },
-  {
-    type: "confirm",
-    name: "channel_url_confirm",
-    message: "確定要抓嗎",
-    initial: true,
-  },
-  {
-    type: "text",
-    name: "channel_url2",
-    message: "要抓寶可夢的網址2",
-    initial:
-      "https://discord.com/channels/323890489856229376/1048520441817468988",
-  },
-  {
-    type: "confirm",
-    name: "channel_url_confirm2",
-    message: "確定要抓嗎",
-    initial: true,
-  },
-];
-
 let rawdata = fs.readFileSync("./data/pokemon_dataset.json");
 let desc = JSON.parse(rawdata);
 
 let api_rawdata = fs.readFileSync("./data/setting.json");
 let api_data = JSON.parse(api_rawdata);
-// Bot login
-client.login(api_data.Api);
-
 
 let want_catch_rawdata = fs.readFileSync("./data/want_catch.json");
 let want_catch_data = JSON.parse(want_catch_rawdata);
@@ -95,8 +39,6 @@ const client = new Client({
 });
 
 // first_time_login();
-const delay = (ms) => new Promise((res) => setTimeout(res, ms));
-
 client.on("ready", () => {
   client.user.setPresence({
     activities: [{ name: `discord.js v14`, type: ActivityType.Playing }],
@@ -104,6 +46,9 @@ client.on("ready", () => {
   });
   console.log(`Logged in as ${client.user.tag}!`);
 });
+
+// Bot login
+client.login(api_data.Api);
 
 client.on("interactionCreate", async (interaction) => {
   if (!interaction.isChatInputCommand()) return;
@@ -148,7 +93,10 @@ client.on("messageCreate", async (message) => {
         chinese_name = data[2];
 
         shiny_flag = false;
+        xmas2022 = false;
         if (message.embeds[0].image.url.includes("shiny")) shiny_flag = true;
+        if (message.embeds[0].image.url.includes("xmas2022")) xmas2022 = true;
+
         sendMessage(pokemon_name, channel);
         console.log(
           "pokemon name: " +
@@ -161,8 +109,14 @@ client.on("messageCreate", async (message) => {
         console.log("channel: 我長大");
       }
 
+      if (xmas2022) {
+        client.users.send(
+          api_data.user_id,
+          "快來跟 " + chinese_name + " " + pokemon_name + "戰鬥啊"
+        );
+      }
       // 只抓需要的
-      if (want_catch_data.includes(pokemon_number) || shiny_flag) {
+      else if (want_catch_data.includes(pokemon_number) || shiny_flag) {
         // 自動抓
         // auto_catch(pokemon_name, page2);
         client.users.send(
@@ -190,7 +144,10 @@ client.on("messageCreate", async (message) => {
         chinese_name = data[2];
 
         shiny_flag = false;
+        xmas2022 = false;
         if (message.embeds[0].image.url.includes("shiny")) shiny_flag = true;
+        if (message.embeds[0].image.url.includes("xmas2022")) xmas2022 = true;
+
         sendMessage(pokemon_name, channel);
         console.log(
           "pokemon name: " +
@@ -202,8 +159,14 @@ client.on("messageCreate", async (message) => {
         );
         console.log("channel: 公子餅");
       }
+      if (xmas2022) {
+        client.users.send(
+          api_data.user_id,
+          "快來跟 " + chinese_name + " " + pokemon_name + "戰鬥啊"
+        );
+      }
       // 只抓需要的
-      if (want_catch_data.includes(pokemon_number) || shiny_flag) {
+      else if (want_catch_data.includes(pokemon_number) || shiny_flag) {
         // 自動抓
         // auto_catch(pokemon_name, page2);
         client.users.send(
@@ -230,7 +193,6 @@ client.on("messageCreate", async (message) => {
   }
 });
 
-
 // 取得寶可夢名稱
 function get_name(message) {
   let pokemon_origin_number = message.embeds[0].image.url.split("/");
@@ -241,17 +203,18 @@ function get_name(message) {
       ]
     ].split("-");
 
+  let realnumber = pokemon_number[0];
   if (pokemon_number[1] != "0") {
-    pokemon_name[0] += "-" + pokemon_number[1];
+    realnumber = realnumber.concat("-", pokemon_number[1]);
   }
 
   pokemon_name = "";
   final_answer = desc.find(function (e) {
-    return e.id == pokemon_number[0];
+    return e.id == realnumber;
   });
   pokemon_name = final_answer["name"];
 
-  return [pokemon_name, pokemon_name[0], final_answer["chinese_name"]];
+  return [pokemon_name, realnumber, final_answer["chinese_name"]];
 }
 
 async function auto_catch(pokemon_name, now_page) {
@@ -280,41 +243,4 @@ async function auto_catch(pokemon_name, now_page) {
   );
   await buttonClick.click();
   console.log("Legend catch");
-}
-
-async function first_time_login() {
-  response = await prompts(questions);
-  console.log("login now");
-  const stats = await PCR(option);
-  browser = await stats.puppeteer
-    .launch({
-      headless: !response.value,
-      args: ["--no-sandbox"],
-      executablePath: stats.executablePath,
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
-  pages = await browser.pages();
-  page1 = pages[0];
-  await page1.goto(response.channel_url);
-  await delay(3000);
-  await page1.waitForSelector(
-    "#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div > div > section > div.centeringWrapper-dGnJPQ > button.marginTop8-24uXGp.marginCenterHorz-574Oxy.linkButton-2ax8wP.button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F"
-  );
-  const buttonClick = await page1.$(
-    "#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div > div > section > div.centeringWrapper-dGnJPQ > button.marginTop8-24uXGp.marginCenterHorz-574Oxy.linkButton-2ax8wP.button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F"
-  );
-
-  await buttonClick.click();
-
-  await page1.keyboard.type(response.username);
-  await page1.keyboard.press("Tab");
-  await page1.keyboard.type(response.userpassword);
-  await page1.keyboard.press("Enter");
-
-  await delay(3000);
-  page2 = await browser.newPage();
-  await page2.goto(response.channel_url2);
-  await delay(3000);
 }

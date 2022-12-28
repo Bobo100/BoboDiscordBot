@@ -166,7 +166,7 @@
     },
     {
         "id": "29",
-        "name": "Nidoran",
+        "name": "Nidoran-f",
         "chinese_name": "尼多蘭"
     },
     {
@@ -176,7 +176,7 @@
     },
     {
         "id": "31",
-        "name": "Nidoqueen",
+        "name": "Nidoqueen-m",
         "chinese_name": "尼多后"
     },
     {
@@ -501,6 +501,11 @@
     },
     {
         "id": "80-1",
+        "name": "Slowbro",
+        "chinese_name": "超級呆殼獸"
+    },
+    {
+        "id": "80-2",
         "name": "Galarian Slowbro",
         "chinese_name": "呆殼獸伽勒爾的樣子"
     },
@@ -751,12 +756,12 @@
     },
     {
         "id": "122",
-        "name": "Mr.Mime",
+        "name": "Mr-Mime",
         "chinese_name": "魔牆人偶*"
     },
     {
         "id": "122-1",
-        "name": "Galarian Mr.Mime",
+        "name": "Galarian Mr-Mime",
         "chinese_name": "魔牆人偶伽勒爾的樣子"
     },
     {
@@ -3005,7 +3010,7 @@
         "chinese_name": "達摩狒狒"
     },
     {
-        "id": "555-1",
+        "id": "555-2",
         "name": "Galarian Darmanitan",
         "chinese_name": "達摩狒狒伽勒爾的樣子"
     },

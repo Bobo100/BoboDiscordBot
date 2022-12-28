@@ -1,3 +1,6 @@
+auto_catch_javascript_version/data/*.json
+auto_catch_javascript_version/userData
+auto_catch_python_version/data/*.json
 data/setting.json
-images/
 node_modules
+
