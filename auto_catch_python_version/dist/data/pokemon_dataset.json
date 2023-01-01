@@ -1,0 +1,5327 @@
+[
+    {
+        "id": "1",
+        "name": "Bulbasaur",
+        "chinese_name": "妙蛙種子"
+    },
+    {
+        "id": "2",
+        "name": "Ivysaur",
+        "chinese_name": "妙蛙草"
+    },
+    {
+        "id": "3",
+        "name": "Venusaur",
+        "chinese_name": "妙蛙花"
+    },
+    {
+        "id": "4",
+        "name": "Charmander",
+        "chinese_name": "小火龍"
+    },
+    {
+        "id": "5",
+        "name": "Charmeleon",
+        "chinese_name": "火恐龍"
+    },
+    {
+        "id": "6",
+        "name": "Charizard",
+        "chinese_name": "噴火龍"
+    },
+    {
+        "id": "7",
+        "name": "Squirtle",
+        "chinese_name": "傑尼龜"
+    },
+    {
+        "id": "8",
+        "name": "Wartortle",
+        "chinese_name": "卡咪龜"
+    },
+    {
+        "id": "9",
+        "name": "Blastoise",
+        "chinese_name": "水箭龜"
+    },
+    {
+        "id": "10",
+        "name": "Caterpie",
+        "chinese_name": "綠毛蟲"
+    },
+    {
+        "id": "11",
+        "name": "Metapod",
+        "chinese_name": "鐵甲蛹"
+    },
+    {
+        "id": "12",
+        "name": "Butterfree",
+        "chinese_name": "巴大蝶"
+    },
+    {
+        "id": "13",
+        "name": "Weedle",
+        "chinese_name": "獨角蟲"
+    },
+    {
+        "id": "14",
+        "name": "Kakuna",
+        "chinese_name": "鐵殼蛹"
+    },
+    {
+        "id": "15",
+        "name": "Beedrill",
+        "chinese_name": "大針蜂"
+    },
+    {
+        "id": "16",
+        "name": "Pidgey",
+        "chinese_name": "波波"
+    },
+    {
+        "id": "17",
+        "name": "Pidgeotto",
+        "chinese_name": "比比鳥"
+    },
+    {
+        "id": "18",
+        "name": "Pidgeot",
+        "chinese_name": "大比鳥"
+    },
+    {
+        "id": "19",
+        "name": "Rattata",
+        "chinese_name": "小拉達"
+    },
+    {
+        "id": "19-1",
+        "name": "Alolan Rattata",
+        "chinese_name": "小拉達阿羅拉的樣子"
+    },
+    {
+        "id": "20",
+        "name": "Raticate",
+        "chinese_name": "拉達"
+    },
+    {
+        "id": "20-1",
+        "name": "Alolan Raticate",
+        "chinese_name": "拉達阿羅拉的樣子"
+    },
+    {
+        "id": "21",
+        "name": "Spearow",
+        "chinese_name": "烈雀"
+    },
+    {
+        "id": "22",
+        "name": "Fearow",
+        "chinese_name": "大嘴雀"
+    },
+    {
+        "id": "23",
+        "name": "Ekans",
+        "chinese_name": "阿柏蛇"
+    },
+    {
+        "id": "24",
+        "name": "Arbok",
+        "chinese_name": "阿柏怪"
+    },
+    {
+        "id": "25",
+        "name": "Pikachu",
+        "chinese_name": "皮卡丘"
+    },
+    {
+        "id": "26",
+        "name": "Raichu",
+        "chinese_name": "雷丘"
+    },
+    {
+        "id": "26-1",
+        "name": "Alolan Raichu",
+        "chinese_name": "雷丘阿羅拉的樣子"
+    },
+    {
+        "id": "27",
+        "name": "Sandshrew",
+        "chinese_name": "穿山鼠"
+    },
+    {
+        "id": "27-1",
+        "name": "Alolan Sandshrew",
+        "chinese_name": "穿山鼠阿羅拉的樣子"
+    },
+    {
+        "id": "28",
+        "name": "Sandslash",
+        "chinese_name": "穿山王"
+    },
+    {
+        "id": "28-1",
+        "name": "Alolan Sandslash",
+        "chinese_name": "穿山王阿羅拉的樣子"
+    },
+    {
+        "id": "29",
+        "name": "Nidoran-f",
+        "chinese_name": "尼多蘭"
+    },
+    {
+        "id": "30",
+        "name": "Nidorina",
+        "chinese_name": "尼多娜"
+    },
+    {
+        "id": "31",
+        "name": "Nidoqueen-m",
+        "chinese_name": "尼多后"
+    },
+    {
+        "id": "32",
+        "name": "Nidoran",
+        "chinese_name": "尼多朗"
+    },
+    {
+        "id": "33",
+        "name": "Nidorino",
+        "chinese_name": "尼多力諾"
+    },
+    {
+        "id": "34",
+        "name": "Nidoking",
+        "chinese_name": "尼多王"
+    },
+    {
+        "id": "35",
+        "name": "Clefairy",
+        "chinese_name": "皮皮*"
+    },
+    {
+        "id": "36",
+        "name": "Clefable",
+        "chinese_name": "皮可西*"
+    },
+    {
+        "id": "37",
+        "name": "Vulpix",
+        "chinese_name": "六尾"
+    },
+    {
+        "id": "37-1",
+        "name": "Alolan Vulpix",
+        "chinese_name": "六尾阿羅拉的樣子"
+    },
+    {
+        "id": "38",
+        "name": "Ninetales",
+        "chinese_name": "九尾"
+    },
+    {
+        "id": "38-1",
+        "name": "Alolan Ninetales",
+        "chinese_name": "九尾阿羅拉的樣子"
+    },
+    {
+        "id": "39",
+        "name": "Jigglypuff",
+        "chinese_name": "胖丁*"
+    },
+    {
+        "id": "40",
+        "name": "Wigglytuff",
+        "chinese_name": "胖可丁*"
+    },
+    {
+        "id": "41",
+        "name": "Zubat",
+        "chinese_name": "超音蝠"
+    },
+    {
+        "id": "42",
+        "name": "Golbat",
+        "chinese_name": "大嘴蝠"
+    },
+    {
+        "id": "43",
+        "name": "Oddish",
+        "chinese_name": "走路草"
+    },
+    {
+        "id": "44",
+        "name": "Gloom",
+        "chinese_name": "臭臭花"
+    },
+    {
+        "id": "45",
+        "name": "Vileplume",
+        "chinese_name": "霸王花"
+    },
+    {
+        "id": "46",
+        "name": "Paras",
+        "chinese_name": "派拉斯"
+    },
+    {
+        "id": "47",
+        "name": "Parasect",
+        "chinese_name": "派拉斯特"
+    },
+    {
+        "id": "48",
+        "name": "Venonat",
+        "chinese_name": "毛球"
+    },
+    {
+        "id": "49",
+        "name": "Venomoth",
+        "chinese_name": "摩魯蛾"
+    },
+    {
+        "id": "50",
+        "name": "Diglett",
+        "chinese_name": "地鼠"
+    },
+    {
+        "id": "50-1",
+        "name": "Alolan Diglett",
+        "chinese_name": "地鼠阿羅拉的樣子"
+    },
+    {
+        "id": "51",
+        "name": "Dugtrio",
+        "chinese_name": "三地鼠"
+    },
+    {
+        "id": "51-1",
+        "name": "Alolan Dugtrio",
+        "chinese_name": "三地鼠阿羅拉的樣子"
+    },
+    {
+        "id": "52",
+        "name": "Meowth",
+        "chinese_name": "喵喵"
+    },
+    {
+        "id": "52-1",
+        "name": "Alolan Meowth",
+        "chinese_name": "喵喵阿羅拉的樣子"
+    },
+    {
+        "id": "52-2",
+        "name": "Galarian Meowth",
+        "chinese_name": "喵喵伽勒爾的樣子"
+    },
+    {
+        "id": "53",
+        "name": "Persian",
+        "chinese_name": "貓老大"
+    },
+    {
+        "id": "53-1",
+        "name": "Alolan Persian",
+        "chinese_name": "貓老大阿羅拉的樣子"
+    },
+    {
+        "id": "54",
+        "name": "Psyduck",
+        "chinese_name": "可達鴨"
+    },
+    {
+        "id": "55",
+        "name": "Golduck",
+        "chinese_name": "哥達鴨"
+    },
+    {
+        "id": "56",
+        "name": "Mankey",
+        "chinese_name": "猴怪"
+    },
+    {
+        "id": "57",
+        "name": "Primeape",
+        "chinese_name": "火爆猴"
+    },
+    {
+        "id": "58",
+        "name": "Growlithe",
+        "chinese_name": "卡蒂狗"
+    },
+    {
+        "id": "58-1",
+        "name": "Hisuian Growlithe",
+        "chinese_name": "卡蒂狗洗翠的樣子"
+    },
+    {
+        "id": "59",
+        "name": "Arcanine",
+        "chinese_name": "風速狗"
+    },
+    {
+        "id": "59-1",
+        "name": "Hisuian Arcanine",
+        "chinese_name": "風速狗洗翠的樣子"
+    },
+    {
+        "id": "60",
+        "name": "Poliwag",
+        "chinese_name": "蚊香蝌蚪"
+    },
+    {
+        "id": "61",
+        "name": "Poliwhirl",
+        "chinese_name": "蚊香君"
+    },
+    {
+        "id": "62",
+        "name": "Poliwrath",
+        "chinese_name": "蚊香泳士"
+    },
+    {
+        "id": "63",
+        "name": "Abra",
+        "chinese_name": "凱西"
+    },
+    {
+        "id": "64",
+        "name": "Kadabra",
+        "chinese_name": "勇基拉"
+    },
+    {
+        "id": "65",
+        "name": "Alakazam",
+        "chinese_name": "胡地"
+    },
+    {
+        "id": "66",
+        "name": "Machop",
+        "chinese_name": "腕力"
+    },
+    {
+        "id": "67",
+        "name": "Machoke",
+        "chinese_name": "豪力"
+    },
+    {
+        "id": "68",
+        "name": "Machamp",
+        "chinese_name": "怪力"
+    },
+    {
+        "id": "69",
+        "name": "Bellsprout",
+        "chinese_name": "喇叭芽"
+    },
+    {
+        "id": "70",
+        "name": "Weepinbell",
+        "chinese_name": "口呆花"
+    },
+    {
+        "id": "71",
+        "name": "Victreebel",
+        "chinese_name": "大食花"
+    },
+    {
+        "id": "72",
+        "name": "Tentacool",
+        "chinese_name": "瑪瑙水母"
+    },
+    {
+        "id": "73",
+        "name": "Tentacruel",
+        "chinese_name": "毒刺水母"
+    },
+    {
+        "id": "74",
+        "name": "Geodude",
+        "chinese_name": "小拳石"
+    },
+    {
+        "id": "74-1",
+        "name": "Alolan Geodude",
+        "chinese_name": "小拳石阿羅拉的樣子"
+    },
+    {
+        "id": "75",
+        "name": "Graveler",
+        "chinese_name": "隆隆石"
+    },
+    {
+        "id": "75-1",
+        "name": "Alolan Graveler",
+        "chinese_name": "隆隆石阿羅拉的樣子"
+    },
+    {
+        "id": "76",
+        "name": "Golem",
+        "chinese_name": "隆隆岩"
+    },
+    {
+        "id": "76-1",
+        "name": "Alolan Golem",
+        "chinese_name": "隆隆岩阿羅拉的樣子"
+    },
+    {
+        "id": "77",
+        "name": "Ponyta",
+        "chinese_name": "小火馬"
+    },
+    {
+        "id": "77-1",
+        "name": "Galarian Ponyta",
+        "chinese_name": "小火馬伽勒爾的樣子"
+    },
+    {
+        "id": "78",
+        "name": "Rapidash",
+        "chinese_name": "烈焰馬"
+    },
+    {
+        "id": "78-1",
+        "name": "Galarian Rapidash",
+        "chinese_name": "烈焰馬伽勒爾的樣子"
+    },
+    {
+        "id": "79",
+        "name": "Slowpoke",
+        "chinese_name": "呆呆獸"
+    },
+    {
+        "id": "79-1",
+        "name": "Galarian Slowpoke",
+        "chinese_name": "呆呆獸伽勒爾的樣子"
+    },
+    {
+        "id": "80",
+        "name": "Slowbro",
+        "chinese_name": "呆殼獸"
+    },
+    {
+        "id": "80-1",
+        "name": "Slowbro",
+        "chinese_name": "超級呆殼獸"
+    },
+    {
+        "id": "80-2",
+        "name": "Galarian Slowbro",
+        "chinese_name": "呆殼獸伽勒爾的樣子"
+    },
+    {
+        "id": "81",
+        "name": "Magnemite",
+        "chinese_name": "小磁怪*"
+    },
+    {
+        "id": "82",
+        "name": "Magneton",
+        "chinese_name": "三合一磁怪*"
+    },
+    {
+        "id": "83",
+        "name": "Farfetchd",
+        "chinese_name": "大蔥鴨"
+    },
+    {
+        "id": "83-1",
+        "name": "Galarian Farfetchd",
+        "chinese_name": "大蔥鴨伽勒爾的樣子"
+    },
+    {
+        "id": "84",
+        "name": "Doduo",
+        "chinese_name": "嘟嘟"
+    },
+    {
+        "id": "85",
+        "name": "Dodrio",
+        "chinese_name": "嘟嘟利"
+    },
+    {
+        "id": "86",
+        "name": "Seel",
+        "chinese_name": "小海獅"
+    },
+    {
+        "id": "87",
+        "name": "Dewgong",
+        "chinese_name": "白海獅"
+    },
+    {
+        "id": "88",
+        "name": "Grimer",
+        "chinese_name": "臭泥"
+    },
+    {
+        "id": "88-1",
+        "name": "Alolan Grimer",
+        "chinese_name": "臭泥阿羅拉的樣子"
+    },
+    {
+        "id": "89",
+        "name": "Muk",
+        "chinese_name": "臭臭泥"
+    },
+    {
+        "id": "89-1",
+        "name": "Alolan Muk",
+        "chinese_name": "臭臭泥阿羅拉的樣子"
+    },
+    {
+        "id": "90",
+        "name": "Shellder",
+        "chinese_name": "大舌貝"
+    },
+    {
+        "id": "91",
+        "name": "Cloyster",
+        "chinese_name": "刺甲貝"
+    },
+    {
+        "id": "92",
+        "name": "Gastly",
+        "chinese_name": "鬼斯"
+    },
+    {
+        "id": "93",
+        "name": "Haunter",
+        "chinese_name": "鬼斯通"
+    },
+    {
+        "id": "94",
+        "name": "Gengar",
+        "chinese_name": "耿鬼"
+    },
+    {
+        "id": "95",
+        "name": "Onix",
+        "chinese_name": "大岩蛇"
+    },
+    {
+        "id": "96",
+        "name": "Drowzee",
+        "chinese_name": "催眠貘"
+    },
+    {
+        "id": "97",
+        "name": "Hypno",
+        "chinese_name": "引夢貘人"
+    },
+    {
+        "id": "98",
+        "name": "Krabby",
+        "chinese_name": "大鉗蟹"
+    },
+    {
+        "id": "99",
+        "name": "Kingler",
+        "chinese_name": "巨鉗蟹"
+    },
+    {
+        "id": "100",
+        "name": "Voltorb",
+        "chinese_name": "霹靂電球"
+    },
+    {
+        "id": "100-1",
+        "name": "Hisuian Voltorb",
+        "chinese_name": "霹靂電球洗翠的樣子"
+    },
+    {
+        "id": "101",
+        "name": "Electrode",
+        "chinese_name": "頑皮雷彈"
+    },
+    {
+        "id": "101-1",
+        "name": "Hisuian Electrode",
+        "chinese_name": "頑皮雷彈洗翠的樣子"
+    },
+    {
+        "id": "102",
+        "name": "Exeggcute",
+        "chinese_name": "蛋蛋"
+    },
+    {
+        "id": "103",
+        "name": "Exeggutor",
+        "chinese_name": "椰蛋樹"
+    },
+    {
+        "id": "103-1",
+        "name": "Alolan Exeggutor",
+        "chinese_name": "椰蛋樹阿羅拉的樣子"
+    },
+    {
+        "id": "104",
+        "name": "Cubone",
+        "chinese_name": "卡拉卡拉"
+    },
+    {
+        "id": "105",
+        "name": "Marowak",
+        "chinese_name": "嘎啦嘎啦"
+    },
+    {
+        "id": "105-1",
+        "name": "Alolan Marowak",
+        "chinese_name": "嘎啦嘎啦阿羅拉的樣子"
+    },
+    {
+        "id": "106",
+        "name": "Hitmonlee",
+        "chinese_name": "飛腿郎"
+    },
+    {
+        "id": "107",
+        "name": "Hitmonchan",
+        "chinese_name": "快拳郎"
+    },
+    {
+        "id": "108",
+        "name": "Lickitung",
+        "chinese_name": "大舌頭"
+    },
+    {
+        "id": "109",
+        "name": "Koffing",
+        "chinese_name": "瓦斯彈"
+    },
+    {
+        "id": "110",
+        "name": "Weezing",
+        "chinese_name": "雙彈瓦斯"
+    },
+    {
+        "id": "110-1",
+        "name": "Galarian Weezing",
+        "chinese_name": "雙彈瓦斯伽勒爾的樣子"
+    },
+    {
+        "id": "111",
+        "name": "Rhyhorn",
+        "chinese_name": "獨角犀牛"
+    },
+    {
+        "id": "112",
+        "name": "Rhydon",
+        "chinese_name": "鑽角犀獸"
+    },
+    {
+        "id": "113",
+        "name": "Chansey",
+        "chinese_name": "吉利蛋"
+    },
+    {
+        "id": "114",
+        "name": "Tangela",
+        "chinese_name": "蔓藤怪"
+    },
+    {
+        "id": "115",
+        "name": "Kangaskhan",
+        "chinese_name": "袋獸"
+    },
+    {
+        "id": "116",
+        "name": "Horsea",
+        "chinese_name": "墨海馬"
+    },
+    {
+        "id": "117",
+        "name": "Seadra",
+        "chinese_name": "海刺龍"
+    },
+    {
+        "id": "118",
+        "name": "Goldeen",
+        "chinese_name": "角金魚"
+    },
+    {
+        "id": "119",
+        "name": "Seaking",
+        "chinese_name": "金魚王"
+    },
+    {
+        "id": "120",
+        "name": "Staryu",
+        "chinese_name": "海星星"
+    },
+    {
+        "id": "121",
+        "name": "Starmie",
+        "chinese_name": "寶石海星"
+    },
+    {
+        "id": "122",
+        "name": "Mr-Mime",
+        "chinese_name": "魔牆人偶*"
+    },
+    {
+        "id": "122-1",
+        "name": "Galarian Mr-Mime",
+        "chinese_name": "魔牆人偶伽勒爾的樣子"
+    },
+    {
+        "id": "123",
+        "name": "Scyther",
+        "chinese_name": "飛天螳螂"
+    },
+    {
+        "id": "124",
+        "name": "Jynx",
+        "chinese_name": "迷唇姐"
+    },
+    {
+        "id": "125",
+        "name": "Electabuzz",
+        "chinese_name": "電擊獸"
+    },
+    {
+        "id": "126",
+        "name": "Magmar",
+        "chinese_name": "鴨嘴火獸"
+    },
+    {
+        "id": "127",
+        "name": "Pinsir",
+        "chinese_name": "凱羅斯"
+    },
+    {
+        "id": "128",
+        "name": "Tauros",
+        "chinese_name": "肯泰羅"
+    },
+    {
+        "id": "128-1",
+        "name": "Paldea Tauros",
+        "chinese_name": "肯泰羅帕底亞的樣子鬥戰種"
+    },
+    {
+        "id": "129",
+        "name": "Magikarp",
+        "chinese_name": "鯉魚王"
+    },
+    {
+        "id": "130",
+        "name": "Gyarados",
+        "chinese_name": "暴鯉龍"
+    },
+    {
+        "id": "131",
+        "name": "Lapras",
+        "chinese_name": "拉普拉斯"
+    },
+    {
+        "id": "132",
+        "name": "Ditto",
+        "chinese_name": "百變怪"
+    },
+    {
+        "id": "133",
+        "name": "Eevee",
+        "chinese_name": "伊布"
+    },
+    {
+        "id": "134",
+        "name": "Vaporeon",
+        "chinese_name": "水伊布"
+    },
+    {
+        "id": "135",
+        "name": "Jolteon",
+        "chinese_name": "雷伊布"
+    },
+    {
+        "id": "136",
+        "name": "Flareon",
+        "chinese_name": "火伊布"
+    },
+    {
+        "id": "137",
+        "name": "Porygon",
+        "chinese_name": "多邊獸"
+    },
+    {
+        "id": "138",
+        "name": "Omanyte",
+        "chinese_name": "菊石獸"
+    },
+    {
+        "id": "139",
+        "name": "Omastar",
+        "chinese_name": "多刺菊石獸"
+    },
+    {
+        "id": "140",
+        "name": "Kabuto",
+        "chinese_name": "化石盔"
+    },
+    {
+        "id": "141",
+        "name": "Kabutops",
+        "chinese_name": "鐮刀盔"
+    },
+    {
+        "id": "142",
+        "name": "Aerodactyl",
+        "chinese_name": "化石翼龍"
+    },
+    {
+        "id": "143",
+        "name": "Snorlax",
+        "chinese_name": "卡比獸"
+    },
+    {
+        "id": "144",
+        "name": "Articuno",
+        "chinese_name": "急凍鳥"
+    },
+    {
+        "id": "144-1",
+        "name": "Galarian Articuno",
+        "chinese_name": "急凍鳥伽勒爾的樣子"
+    },
+    {
+        "id": "145",
+        "name": "Zapdos",
+        "chinese_name": "閃電鳥"
+    },
+    {
+        "id": "145-1",
+        "name": "Galarian Zapdos",
+        "chinese_name": "閃電鳥伽勒爾的樣子"
+    },
+    {
+        "id": "146",
+        "name": "Moltres",
+        "chinese_name": "火焰鳥"
+    },
+    {
+        "id": "146-1",
+        "name": "Galarian Moltres",
+        "chinese_name": "火焰鳥伽勒爾的樣子"
+    },
+    {
+        "id": "147",
+        "name": "Dratini",
+        "chinese_name": "迷你龍"
+    },
+    {
+        "id": "148",
+        "name": "Dragonair",
+        "chinese_name": "哈克龍"
+    },
+    {
+        "id": "149",
+        "name": "Dragonite",
+        "chinese_name": "快龍"
+    },
+    {
+        "id": "150",
+        "name": "Mewtwo",
+        "chinese_name": "超夢"
+    },
+    {
+        "id": "151",
+        "name": "Mew",
+        "chinese_name": "夢幻"
+    },
+    {
+        "id": "152",
+        "name": "Chikorita",
+        "chinese_name": "菊草葉"
+    },
+    {
+        "id": "153",
+        "name": "Bayleef",
+        "chinese_name": "月桂葉"
+    },
+    {
+        "id": "154",
+        "name": "Meganium",
+        "chinese_name": "大竺葵"
+    },
+    {
+        "id": "155",
+        "name": "Cyndaquil",
+        "chinese_name": "火球鼠"
+    },
+    {
+        "id": "156",
+        "name": "Quilava",
+        "chinese_name": "火岩鼠"
+    },
+    {
+        "id": "157",
+        "name": "Typhlosion",
+        "chinese_name": "火爆獸"
+    },
+    {
+        "id": "157-1",
+        "name": "Hisuian Typhlosion",
+        "chinese_name": "火爆獸洗翠的樣子"
+    },
+    {
+        "id": "158",
+        "name": "Totodile",
+        "chinese_name": "小鋸鱷"
+    },
+    {
+        "id": "159",
+        "name": "Croconaw",
+        "chinese_name": "藍鱷"
+    },
+    {
+        "id": "160",
+        "name": "Feraligatr",
+        "chinese_name": "大力鱷"
+    },
+    {
+        "id": "161",
+        "name": "Sentret",
+        "chinese_name": "尾立"
+    },
+    {
+        "id": "162",
+        "name": "Furret",
+        "chinese_name": "大尾立"
+    },
+    {
+        "id": "163",
+        "name": "Hoothoot",
+        "chinese_name": "咕咕"
+    },
+    {
+        "id": "164",
+        "name": "Noctowl",
+        "chinese_name": "貓頭夜鷹"
+    },
+    {
+        "id": "165",
+        "name": "Ledyba",
+        "chinese_name": "芭瓢蟲"
+    },
+    {
+        "id": "166",
+        "name": "Ledian",
+        "chinese_name": "安瓢蟲"
+    },
+    {
+        "id": "167",
+        "name": "Spinarak",
+        "chinese_name": "圓絲蛛"
+    },
+    {
+        "id": "168",
+        "name": "Ariados",
+        "chinese_name": "阿利多斯"
+    },
+    {
+        "id": "169",
+        "name": "Crobat",
+        "chinese_name": "叉字蝠"
+    },
+    {
+        "id": "170",
+        "name": "Chinchou",
+        "chinese_name": "燈籠魚"
+    },
+    {
+        "id": "171",
+        "name": "Lanturn",
+        "chinese_name": "電燈怪"
+    },
+    {
+        "id": "172",
+        "name": "Pichu",
+        "chinese_name": "皮丘"
+    },
+    {
+        "id": "173",
+        "name": "Cleffa",
+        "chinese_name": "皮寶寶*"
+    },
+    {
+        "id": "174",
+        "name": "Igglybuff",
+        "chinese_name": "寶寶丁*"
+    },
+    {
+        "id": "175",
+        "name": "Togepi",
+        "chinese_name": "波克比*"
+    },
+    {
+        "id": "176",
+        "name": "Togetic",
+        "chinese_name": "波克基古*"
+    },
+    {
+        "id": "177",
+        "name": "Natu",
+        "chinese_name": "天然雀"
+    },
+    {
+        "id": "178",
+        "name": "Xatu",
+        "chinese_name": "天然鳥"
+    },
+    {
+        "id": "179",
+        "name": "Mareep",
+        "chinese_name": "咩利羊"
+    },
+    {
+        "id": "180",
+        "name": "Flaaffy",
+        "chinese_name": "茸茸羊"
+    },
+    {
+        "id": "181",
+        "name": "Ampharos",
+        "chinese_name": "電龍"
+    },
+    {
+        "id": "182",
+        "name": "Bellossom",
+        "chinese_name": "美麗花"
+    },
+    {
+        "id": "183",
+        "name": "Marill",
+        "chinese_name": "瑪力露*"
+    },
+    {
+        "id": "184",
+        "name": "Azumarill",
+        "chinese_name": "瑪力露麗*"
+    },
+    {
+        "id": "185",
+        "name": "Sudowoodo",
+        "chinese_name": "樹才怪"
+    },
+    {
+        "id": "186",
+        "name": "Politoed",
+        "chinese_name": "蚊香蛙皇"
+    },
+    {
+        "id": "187",
+        "name": "Hoppip",
+        "chinese_name": "毽子草"
+    },
+    {
+        "id": "188",
+        "name": "Skiploom",
+        "chinese_name": "毽子花"
+    },
+    {
+        "id": "189",
+        "name": "Jumpluff",
+        "chinese_name": "毽子棉"
+    },
+    {
+        "id": "190",
+        "name": "Aipom",
+        "chinese_name": "長尾怪手"
+    },
+    {
+        "id": "191",
+        "name": "Sunkern",
+        "chinese_name": "向日種子"
+    },
+    {
+        "id": "192",
+        "name": "Sunflora",
+        "chinese_name": "向日花怪"
+    },
+    {
+        "id": "193",
+        "name": "Yanma",
+        "chinese_name": "蜻蜻蜓"
+    },
+    {
+        "id": "194",
+        "name": "Wooper",
+        "chinese_name": "烏波"
+    },
+    {
+        "id": "194-1",
+        "name": "Paldea Wooper",
+        "chinese_name": "烏波帕底亞的樣子"
+    },
+    {
+        "id": "195",
+        "name": "Quagsire",
+        "chinese_name": "沼王"
+    },
+    {
+        "id": "196",
+        "name": "Espeon",
+        "chinese_name": "太陽伊布"
+    },
+    {
+        "id": "197",
+        "name": "Umbreon",
+        "chinese_name": "月亮伊布"
+    },
+    {
+        "id": "198",
+        "name": "Murkrow",
+        "chinese_name": "黑暗鴉"
+    },
+    {
+        "id": "199",
+        "name": "Slowking",
+        "chinese_name": "呆呆王"
+    },
+    {
+        "id": "199-1",
+        "name": "Galarian Slowking",
+        "chinese_name": "呆呆王伽勒爾的樣子"
+    },
+    {
+        "id": "200",
+        "name": "Misdreavus",
+        "chinese_name": "夢妖"
+    },
+    {
+        "id": "201",
+        "name": "Unown",
+        "chinese_name": "未知圖騰"
+    },
+    {
+        "id": "202",
+        "name": "Wobbuffet",
+        "chinese_name": "果然翁"
+    },
+    {
+        "id": "203",
+        "name": "Girafarig",
+        "chinese_name": "麒麟奇"
+    },
+    {
+        "id": "204",
+        "name": "Pineco",
+        "chinese_name": "榛果球"
+    },
+    {
+        "id": "205",
+        "name": "Forretress",
+        "chinese_name": "佛烈托斯"
+    },
+    {
+        "id": "206",
+        "name": "Dunsparce",
+        "chinese_name": "土龍弟弟"
+    },
+    {
+        "id": "207",
+        "name": "Gligar",
+        "chinese_name": "天蠍"
+    },
+    {
+        "id": "208",
+        "name": "Steelix",
+        "chinese_name": "大鋼蛇"
+    },
+    {
+        "id": "209",
+        "name": "Snubbull",
+        "chinese_name": "布魯*"
+    },
+    {
+        "id": "210",
+        "name": "Granbull",
+        "chinese_name": "布魯皇*"
+    },
+    {
+        "id": "211",
+        "name": "Qwilfish",
+        "chinese_name": "千針魚"
+    },
+    {
+        "id": "211-1",
+        "name": "Hisuian Qwilfish",
+        "chinese_name": "千針魚洗翠的樣子"
+    },
+    {
+        "id": "212",
+        "name": "Scizor",
+        "chinese_name": "巨鉗螳螂"
+    },
+    {
+        "id": "213",
+        "name": "Shuckle",
+        "chinese_name": "壺壺"
+    },
+    {
+        "id": "214",
+        "name": "Heracross",
+        "chinese_name": "赫拉克羅斯"
+    },
+    {
+        "id": "215",
+        "name": "Sneasel",
+        "chinese_name": "狃拉"
+    },
+    {
+        "id": "215-1",
+        "name": "Hisuian Sneasel",
+        "chinese_name": "狃拉洗翠的樣子"
+    },
+    {
+        "id": "216",
+        "name": "Teddiursa",
+        "chinese_name": "熊寶寶"
+    },
+    {
+        "id": "217",
+        "name": "Ursaring",
+        "chinese_name": "圈圈熊"
+    },
+    {
+        "id": "218",
+        "name": "Slugma",
+        "chinese_name": "熔岩蟲"
+    },
+    {
+        "id": "219",
+        "name": "Magcargo",
+        "chinese_name": "熔岩蝸牛"
+    },
+    {
+        "id": "220",
+        "name": "Swinub",
+        "chinese_name": "小山豬"
+    },
+    {
+        "id": "221",
+        "name": "Piloswine",
+        "chinese_name": "長毛豬"
+    },
+    {
+        "id": "222",
+        "name": "Corsola",
+        "chinese_name": "太陽珊瑚"
+    },
+    {
+        "id": "222-1",
+        "name": "Galarian Corsola",
+        "chinese_name": "太陽珊瑚伽勒爾的樣子"
+    },
+    {
+        "id": "223",
+        "name": "Remoraid",
+        "chinese_name": "鐵炮魚"
+    },
+    {
+        "id": "224",
+        "name": "Octillery",
+        "chinese_name": "章魚桶"
+    },
+    {
+        "id": "225",
+        "name": "Delibird",
+        "chinese_name": "信使鳥"
+    },
+    {
+        "id": "226",
+        "name": "Mantine",
+        "chinese_name": "巨翅飛魚"
+    },
+    {
+        "id": "227",
+        "name": "Skarmory",
+        "chinese_name": "盔甲鳥"
+    },
+    {
+        "id": "228",
+        "name": "Houndour",
+        "chinese_name": "戴魯比"
+    },
+    {
+        "id": "229",
+        "name": "Houndoom",
+        "chinese_name": "黑魯加"
+    },
+    {
+        "id": "230",
+        "name": "Kingdra",
+        "chinese_name": "刺龍王"
+    },
+    {
+        "id": "231",
+        "name": "Phanpy",
+        "chinese_name": "小小象"
+    },
+    {
+        "id": "232",
+        "name": "Donphan",
+        "chinese_name": "頓甲"
+    },
+    {
+        "id": "233",
+        "name": "Porygon2",
+        "chinese_name": "多邊獸Ⅱ"
+    },
+    {
+        "id": "234",
+        "name": "Stantler",
+        "chinese_name": "驚角鹿"
+    },
+    {
+        "id": "235",
+        "name": "Smeargle",
+        "chinese_name": "圖圖犬"
+    },
+    {
+        "id": "236",
+        "name": "Tyrogue",
+        "chinese_name": "無畏小子"
+    },
+    {
+        "id": "237",
+        "name": "Hitmontop",
+        "chinese_name": "戰舞郎"
+    },
+    {
+        "id": "238",
+        "name": "Smoochum",
+        "chinese_name": "迷唇娃"
+    },
+    {
+        "id": "239",
+        "name": "Elekid",
+        "chinese_name": "電擊怪"
+    },
+    {
+        "id": "240",
+        "name": "Magby",
+        "chinese_name": "鴨嘴寶寶"
+    },
+    {
+        "id": "241",
+        "name": "Miltank",
+        "chinese_name": "大奶罐"
+    },
+    {
+        "id": "242",
+        "name": "Blissey",
+        "chinese_name": "幸福蛋"
+    },
+    {
+        "id": "243",
+        "name": "Raikou",
+        "chinese_name": "雷公"
+    },
+    {
+        "id": "244",
+        "name": "Entei",
+        "chinese_name": "炎帝"
+    },
+    {
+        "id": "245",
+        "name": "Suicune",
+        "chinese_name": "水君"
+    },
+    {
+        "id": "246",
+        "name": "Larvitar",
+        "chinese_name": "幼基拉斯"
+    },
+    {
+        "id": "247",
+        "name": "Pupitar",
+        "chinese_name": "沙基拉斯"
+    },
+    {
+        "id": "248",
+        "name": "Tyranitar",
+        "chinese_name": "班基拉斯"
+    },
+    {
+        "id": "249",
+        "name": "Lugia",
+        "chinese_name": "洛奇亞"
+    },
+    {
+        "id": "250",
+        "name": "Ho-Oh",
+        "chinese_name": "鳳王"
+    },
+    {
+        "id": "251",
+        "name": "Celebi",
+        "chinese_name": "時拉比"
+    },
+    {
+        "id": "252",
+        "name": "Treecko",
+        "chinese_name": "木守宮"
+    },
+    {
+        "id": "253",
+        "name": "Grovyle",
+        "chinese_name": "森林蜥蜴"
+    },
+    {
+        "id": "254",
+        "name": "Sceptile",
+        "chinese_name": "蜥蜴王"
+    },
+    {
+        "id": "255",
+        "name": "Torchic",
+        "chinese_name": "火稚雞"
+    },
+    {
+        "id": "256",
+        "name": "Combusken",
+        "chinese_name": "力壯雞"
+    },
+    {
+        "id": "257",
+        "name": "Blaziken",
+        "chinese_name": "火焰雞"
+    },
+    {
+        "id": "258",
+        "name": "Mudkip",
+        "chinese_name": "水躍魚"
+    },
+    {
+        "id": "259",
+        "name": "Marshtomp",
+        "chinese_name": "沼躍魚"
+    },
+    {
+        "id": "260",
+        "name": "Swampert",
+        "chinese_name": "巨沼怪"
+    },
+    {
+        "id": "261",
+        "name": "Poochyena",
+        "chinese_name": "土狼犬"
+    },
+    {
+        "id": "262",
+        "name": "Mightyena",
+        "chinese_name": "大狼犬"
+    },
+    {
+        "id": "263",
+        "name": "Zigzagoon",
+        "chinese_name": "蛇紋熊"
+    },
+    {
+        "id": "263-1",
+        "name": "Galarian Zigzagoon",
+        "chinese_name": "蛇紋熊伽勒爾的樣子"
+    },
+    {
+        "id": "264",
+        "name": "Linoone",
+        "chinese_name": "直衝熊"
+    },
+    {
+        "id": "264-1",
+        "name": "Galarian Linoone",
+        "chinese_name": "直衝熊伽勒爾的樣子"
+    },
+    {
+        "id": "265",
+        "name": "Wurmple",
+        "chinese_name": "刺尾蟲"
+    },
+    {
+        "id": "266",
+        "name": "Silcoon",
+        "chinese_name": "甲殼繭"
+    },
+    {
+        "id": "267",
+        "name": "Beautifly",
+        "chinese_name": "狩獵鳳蝶"
+    },
+    {
+        "id": "268",
+        "name": "Cascoon",
+        "chinese_name": "盾甲繭"
+    },
+    {
+        "id": "269",
+        "name": "Dustox",
+        "chinese_name": "毒粉蛾"
+    },
+    {
+        "id": "270",
+        "name": "Lotad",
+        "chinese_name": "蓮葉童子"
+    },
+    {
+        "id": "271",
+        "name": "Lombre",
+        "chinese_name": "蓮帽小童"
+    },
+    {
+        "id": "272",
+        "name": "Ludicolo",
+        "chinese_name": "樂天河童"
+    },
+    {
+        "id": "273",
+        "name": "Seedot",
+        "chinese_name": "橡實果"
+    },
+    {
+        "id": "274",
+        "name": "Nuzleaf",
+        "chinese_name": "長鼻葉"
+    },
+    {
+        "id": "275",
+        "name": "Shiftry",
+        "chinese_name": "狡猾天狗"
+    },
+    {
+        "id": "276",
+        "name": "Taillow",
+        "chinese_name": "傲骨燕"
+    },
+    {
+        "id": "277",
+        "name": "Swellow",
+        "chinese_name": "大王燕"
+    },
+    {
+        "id": "278",
+        "name": "Wingull",
+        "chinese_name": "長翅鷗"
+    },
+    {
+        "id": "279",
+        "name": "Pelipper",
+        "chinese_name": "大嘴鷗"
+    },
+    {
+        "id": "280",
+        "name": "Ralts",
+        "chinese_name": "拉魯拉絲*"
+    },
+    {
+        "id": "281",
+        "name": "Kirlia",
+        "chinese_name": "奇魯莉安*"
+    },
+    {
+        "id": "282",
+        "name": "Gardevoir",
+        "chinese_name": "沙奈朵*"
+    },
+    {
+        "id": "283",
+        "name": "Surskit",
+        "chinese_name": "溜溜糖球"
+    },
+    {
+        "id": "284",
+        "name": "Masquerain",
+        "chinese_name": "雨翅蛾"
+    },
+    {
+        "id": "285",
+        "name": "Shroomish",
+        "chinese_name": "蘑蘑菇"
+    },
+    {
+        "id": "286",
+        "name": "Breloom",
+        "chinese_name": "斗笠菇"
+    },
+    {
+        "id": "287",
+        "name": "Slakoth",
+        "chinese_name": "懶人獺"
+    },
+    {
+        "id": "288",
+        "name": "Vigoroth",
+        "chinese_name": "過動猿"
+    },
+    {
+        "id": "289",
+        "name": "Slaking",
+        "chinese_name": "請假王"
+    },
+    {
+        "id": "290",
+        "name": "Nincada",
+        "chinese_name": "土居忍士"
+    },
+    {
+        "id": "291",
+        "name": "Ninjask",
+        "chinese_name": "鐵面忍者"
+    },
+    {
+        "id": "292",
+        "name": "Shedinja",
+        "chinese_name": "脫殼忍者"
+    },
+    {
+        "id": "293",
+        "name": "Whismur",
+        "chinese_name": "咕妞妞"
+    },
+    {
+        "id": "294",
+        "name": "Loudred",
+        "chinese_name": "吼爆彈"
+    },
+    {
+        "id": "295",
+        "name": "Exploud",
+        "chinese_name": "爆音怪"
+    },
+    {
+        "id": "296",
+        "name": "Makuhita",
+        "chinese_name": "幕下力士"
+    },
+    {
+        "id": "297",
+        "name": "Hariyama",
+        "chinese_name": "鐵掌力士"
+    },
+    {
+        "id": "298",
+        "name": "Azurill",
+        "chinese_name": "露力麗*"
+    },
+    {
+        "id": "299",
+        "name": "Nosepass",
+        "chinese_name": "朝北鼻"
+    },
+    {
+        "id": "300",
+        "name": "Skitty",
+        "chinese_name": "向尾喵"
+    },
+    {
+        "id": "301",
+        "name": "Delcatty",
+        "chinese_name": "優雅貓"
+    },
+    {
+        "id": "302",
+        "name": "Sableye",
+        "chinese_name": "勾魂眼"
+    },
+    {
+        "id": "303",
+        "name": "Mawile",
+        "chinese_name": "大嘴娃*"
+    },
+    {
+        "id": "304",
+        "name": "Aron",
+        "chinese_name": "可可多拉"
+    },
+    {
+        "id": "305",
+        "name": "Lairon",
+        "chinese_name": "可多拉"
+    },
+    {
+        "id": "306",
+        "name": "Aggron",
+        "chinese_name": "波士可多拉"
+    },
+    {
+        "id": "307",
+        "name": "Meditite",
+        "chinese_name": "瑪沙那"
+    },
+    {
+        "id": "308",
+        "name": "Medicham",
+        "chinese_name": "恰雷姆"
+    },
+    {
+        "id": "309",
+        "name": "Electrike",
+        "chinese_name": "落雷獸"
+    },
+    {
+        "id": "310",
+        "name": "Manectric",
+        "chinese_name": "雷電獸"
+    },
+    {
+        "id": "311",
+        "name": "Plusle",
+        "chinese_name": "正電拍拍"
+    },
+    {
+        "id": "312",
+        "name": "Minun",
+        "chinese_name": "負電拍拍"
+    },
+    {
+        "id": "313",
+        "name": "Volbeat",
+        "chinese_name": "電螢蟲"
+    },
+    {
+        "id": "314",
+        "name": "Illumise",
+        "chinese_name": "甜甜螢"
+    },
+    {
+        "id": "315",
+        "name": "Roselia",
+        "chinese_name": "毒薔薇"
+    },
+    {
+        "id": "316",
+        "name": "Gulpin",
+        "chinese_name": "溶食獸"
+    },
+    {
+        "id": "317",
+        "name": "Swalot",
+        "chinese_name": "吞食獸"
+    },
+    {
+        "id": "318",
+        "name": "Carvanha",
+        "chinese_name": "利牙魚"
+    },
+    {
+        "id": "319",
+        "name": "Sharpedo",
+        "chinese_name": "巨牙鯊"
+    },
+    {
+        "id": "320",
+        "name": "Wailmer",
+        "chinese_name": "吼吼鯨"
+    },
+    {
+        "id": "321",
+        "name": "Wailord",
+        "chinese_name": "吼鯨王"
+    },
+    {
+        "id": "322",
+        "name": "Numel",
+        "chinese_name": "呆火駝"
+    },
+    {
+        "id": "323",
+        "name": "Camerupt",
+        "chinese_name": "噴火駝"
+    },
+    {
+        "id": "324",
+        "name": "Torkoal",
+        "chinese_name": "煤炭龜"
+    },
+    {
+        "id": "325",
+        "name": "Spoink",
+        "chinese_name": "跳跳豬"
+    },
+    {
+        "id": "326",
+        "name": "Grumpig",
+        "chinese_name": "噗噗豬"
+    },
+    {
+        "id": "327",
+        "name": "Spinda",
+        "chinese_name": "晃晃斑"
+    },
+    {
+        "id": "328",
+        "name": "Trapinch",
+        "chinese_name": "大顎蟻"
+    },
+    {
+        "id": "329",
+        "name": "Vibrava",
+        "chinese_name": "超音波幼蟲"
+    },
+    {
+        "id": "330",
+        "name": "Flygon",
+        "chinese_name": "沙漠蜻蜓"
+    },
+    {
+        "id": "331",
+        "name": "Cacnea",
+        "chinese_name": "刺球仙人掌"
+    },
+    {
+        "id": "332",
+        "name": "Cacturne",
+        "chinese_name": "夢歌仙人掌"
+    },
+    {
+        "id": "333",
+        "name": "Swablu",
+        "chinese_name": "青綿鳥"
+    },
+    {
+        "id": "334",
+        "name": "Altaria",
+        "chinese_name": "七夕青鳥"
+    },
+    {
+        "id": "335",
+        "name": "Zangoose",
+        "chinese_name": "貓鼬斬"
+    },
+    {
+        "id": "336",
+        "name": "Seviper",
+        "chinese_name": "飯匙蛇"
+    },
+    {
+        "id": "337",
+        "name": "Lunatone",
+        "chinese_name": "月石"
+    },
+    {
+        "id": "338",
+        "name": "Solrock",
+        "chinese_name": "太陽岩"
+    },
+    {
+        "id": "339",
+        "name": "Barboach",
+        "chinese_name": "泥泥鰍"
+    },
+    {
+        "id": "340",
+        "name": "Whiscash",
+        "chinese_name": "鯰魚王"
+    },
+    {
+        "id": "341",
+        "name": "Corphish",
+        "chinese_name": "龍蝦小兵"
+    },
+    {
+        "id": "342",
+        "name": "Crawdaunt",
+        "chinese_name": "鐵螯龍蝦"
+    },
+    {
+        "id": "343",
+        "name": "Baltoy",
+        "chinese_name": "天秤偶"
+    },
+    {
+        "id": "344",
+        "name": "Claydol",
+        "chinese_name": "念力土偶"
+    },
+    {
+        "id": "345",
+        "name": "Lileep",
+        "chinese_name": "觸手百合"
+    },
+    {
+        "id": "346",
+        "name": "Cradily",
+        "chinese_name": "搖籃百合"
+    },
+    {
+        "id": "347",
+        "name": "Anorith",
+        "chinese_name": "太古羽蟲"
+    },
+    {
+        "id": "348",
+        "name": "Armaldo",
+        "chinese_name": "太古盔甲"
+    },
+    {
+        "id": "349",
+        "name": "Feebas",
+        "chinese_name": "醜醜魚"
+    },
+    {
+        "id": "350",
+        "name": "Milotic",
+        "chinese_name": "美納斯"
+    },
+    {
+        "id": "351",
+        "name": "Castform",
+        "chinese_name": "飄浮泡泡"
+    },
+    {
+        "id": "352",
+        "name": "Kecleon",
+        "chinese_name": "變隱龍"
+    },
+    {
+        "id": "353",
+        "name": "Shuppet",
+        "chinese_name": "怨影娃娃"
+    },
+    {
+        "id": "354",
+        "name": "Banette",
+        "chinese_name": "詛咒娃娃"
+    },
+    {
+        "id": "355",
+        "name": "Duskull",
+        "chinese_name": "夜巡靈"
+    },
+    {
+        "id": "356",
+        "name": "Dusclops",
+        "chinese_name": "彷徨夜靈"
+    },
+    {
+        "id": "357",
+        "name": "Tropius",
+        "chinese_name": "熱帶龍"
+    },
+    {
+        "id": "358",
+        "name": "Chimecho",
+        "chinese_name": "風鈴鈴"
+    },
+    {
+        "id": "359",
+        "name": "Absol",
+        "chinese_name": "阿勃梭魯"
+    },
+    {
+        "id": "360",
+        "name": "Wynaut",
+        "chinese_name": "小果然"
+    },
+    {
+        "id": "361",
+        "name": "Snorunt",
+        "chinese_name": "雪童子"
+    },
+    {
+        "id": "362",
+        "name": "Glalie",
+        "chinese_name": "冰鬼護"
+    },
+    {
+        "id": "363",
+        "name": "Spheal",
+        "chinese_name": "海豹球"
+    },
+    {
+        "id": "364",
+        "name": "Sealeo",
+        "chinese_name": "海魔獅"
+    },
+    {
+        "id": "365",
+        "name": "Walrein",
+        "chinese_name": "帝牙海獅"
+    },
+    {
+        "id": "366",
+        "name": "Clamperl",
+        "chinese_name": "珍珠貝"
+    },
+    {
+        "id": "367",
+        "name": "Huntail",
+        "chinese_name": "獵斑魚"
+    },
+    {
+        "id": "368",
+        "name": "Gorebyss",
+        "chinese_name": "櫻花魚"
+    },
+    {
+        "id": "369",
+        "name": "Relicanth",
+        "chinese_name": "古空棘魚"
+    },
+    {
+        "id": "370",
+        "name": "Luvdisc",
+        "chinese_name": "愛心魚"
+    },
+    {
+        "id": "371",
+        "name": "Bagon",
+        "chinese_name": "寶貝龍"
+    },
+    {
+        "id": "372",
+        "name": "Shelgon",
+        "chinese_name": "甲殼龍"
+    },
+    {
+        "id": "373",
+        "name": "Salamence",
+        "chinese_name": "暴飛龍"
+    },
+    {
+        "id": "374",
+        "name": "Beldum",
+        "chinese_name": "鐵啞鈴"
+    },
+    {
+        "id": "375",
+        "name": "Metang",
+        "chinese_name": "金屬怪"
+    },
+    {
+        "id": "376",
+        "name": "Metagross",
+        "chinese_name": "巨金怪"
+    },
+    {
+        "id": "377",
+        "name": "Regirock",
+        "chinese_name": "雷吉洛克"
+    },
+    {
+        "id": "378",
+        "name": "Regice",
+        "chinese_name": "雷吉艾斯"
+    },
+    {
+        "id": "379",
+        "name": "Registeel",
+        "chinese_name": "雷吉斯奇魯"
+    },
+    {
+        "id": "380",
+        "name": "Latias",
+        "chinese_name": "拉帝亞斯"
+    },
+    {
+        "id": "381",
+        "name": "Latios",
+        "chinese_name": "拉帝歐斯"
+    },
+    {
+        "id": "382",
+        "name": "Kyogre",
+        "chinese_name": "蓋歐卡"
+    },
+    {
+        "id": "383",
+        "name": "Groudon",
+        "chinese_name": "固拉多"
+    },
+    {
+        "id": "384",
+        "name": "Rayquaza",
+        "chinese_name": "烈空坐"
+    },
+    {
+        "id": "385",
+        "name": "Jirachi",
+        "chinese_name": "基拉祈"
+    },
+    {
+        "id": "386",
+        "name": "Deoxys",
+        "chinese_name": "代歐奇希斯"
+    },
+    {
+        "id": "387",
+        "name": "Turtwig",
+        "chinese_name": "草苗龜"
+    },
+    {
+        "id": "388",
+        "name": "Grotle",
+        "chinese_name": "樹林龜"
+    },
+    {
+        "id": "389",
+        "name": "Torterra",
+        "chinese_name": "土台龜"
+    },
+    {
+        "id": "390",
+        "name": "Chimchar",
+        "chinese_name": "小火焰猴"
+    },
+    {
+        "id": "391",
+        "name": "Monferno",
+        "chinese_name": "猛火猴"
+    },
+    {
+        "id": "392",
+        "name": "Infernape",
+        "chinese_name": "烈焰猴"
+    },
+    {
+        "id": "393",
+        "name": "Piplup",
+        "chinese_name": "波加曼"
+    },
+    {
+        "id": "394",
+        "name": "Prinplup",
+        "chinese_name": "波皇子"
+    },
+    {
+        "id": "395",
+        "name": "Empoleon",
+        "chinese_name": "帝王拿波"
+    },
+    {
+        "id": "396",
+        "name": "Starly",
+        "chinese_name": "姆克兒"
+    },
+    {
+        "id": "397",
+        "name": "Staravia",
+        "chinese_name": "姆克鳥"
+    },
+    {
+        "id": "398",
+        "name": "Staraptor",
+        "chinese_name": "姆克鷹"
+    },
+    {
+        "id": "399",
+        "name": "Bidoof",
+        "chinese_name": "大牙狸"
+    },
+    {
+        "id": "400",
+        "name": "Bibarel",
+        "chinese_name": "大尾狸"
+    },
+    {
+        "id": "401",
+        "name": "Kricketot",
+        "chinese_name": "圓法師"
+    },
+    {
+        "id": "402",
+        "name": "Kricketune",
+        "chinese_name": "音箱蟀"
+    },
+    {
+        "id": "403",
+        "name": "Shinx",
+        "chinese_name": "小貓怪"
+    },
+    {
+        "id": "404",
+        "name": "Luxio",
+        "chinese_name": "勒克貓"
+    },
+    {
+        "id": "405",
+        "name": "Luxray",
+        "chinese_name": "倫琴貓"
+    },
+    {
+        "id": "406",
+        "name": "Budew",
+        "chinese_name": "含羞苞"
+    },
+    {
+        "id": "407",
+        "name": "Roserade",
+        "chinese_name": "羅絲雷朵"
+    },
+    {
+        "id": "408",
+        "name": "Cranidos",
+        "chinese_name": "頭蓋龍"
+    },
+    {
+        "id": "409",
+        "name": "Rampardos",
+        "chinese_name": "戰槌龍"
+    },
+    {
+        "id": "410",
+        "name": "Shieldon",
+        "chinese_name": "盾甲龍"
+    },
+    {
+        "id": "411",
+        "name": "Bastiodon",
+        "chinese_name": "護城龍"
+    },
+    {
+        "id": "412",
+        "name": "Burmy",
+        "chinese_name": "結草兒"
+    },
+    {
+        "id": "413",
+        "name": "Wormadam",
+        "chinese_name": "結草貴婦"
+    },
+    {
+        "id": "414",
+        "name": "Mothim",
+        "chinese_name": "紳士蛾"
+    },
+    {
+        "id": "415",
+        "name": "Combee",
+        "chinese_name": "三蜜蜂"
+    },
+    {
+        "id": "416",
+        "name": "Vespiquen",
+        "chinese_name": "蜂女王"
+    },
+    {
+        "id": "417",
+        "name": "Pachirisu",
+        "chinese_name": "帕奇利茲"
+    },
+    {
+        "id": "418",
+        "name": "Buizel",
+        "chinese_name": "泳圈鼬"
+    },
+    {
+        "id": "419",
+        "name": "Floatzel",
+        "chinese_name": "浮潛鼬"
+    },
+    {
+        "id": "420",
+        "name": "Cherubi",
+        "chinese_name": "櫻花寶"
+    },
+    {
+        "id": "421",
+        "name": "Cherrim",
+        "chinese_name": "櫻花兒"
+    },
+    {
+        "id": "422",
+        "name": "Shellos",
+        "chinese_name": "無殼海兔"
+    },
+    {
+        "id": "423",
+        "name": "Gastrodon",
+        "chinese_name": "海兔獸"
+    },
+    {
+        "id": "424",
+        "name": "Ambipom",
+        "chinese_name": "雙尾怪手"
+    },
+    {
+        "id": "425",
+        "name": "Drifloon",
+        "chinese_name": "飄飄球"
+    },
+    {
+        "id": "426",
+        "name": "Drifblim",
+        "chinese_name": "隨風球"
+    },
+    {
+        "id": "427",
+        "name": "Buneary",
+        "chinese_name": "捲捲耳"
+    },
+    {
+        "id": "428",
+        "name": "Lopunny",
+        "chinese_name": "長耳兔"
+    },
+    {
+        "id": "429",
+        "name": "Mismagius",
+        "chinese_name": "夢妖魔"
+    },
+    {
+        "id": "430",
+        "name": "Honchkrow",
+        "chinese_name": "烏鴉頭頭"
+    },
+    {
+        "id": "431",
+        "name": "Glameow",
+        "chinese_name": "魅力喵"
+    },
+    {
+        "id": "432",
+        "name": "Purugly",
+        "chinese_name": "東施喵"
+    },
+    {
+        "id": "433",
+        "name": "Chingling",
+        "chinese_name": "鈴鐺響"
+    },
+    {
+        "id": "434",
+        "name": "Stunky",
+        "chinese_name": "臭鼬噗"
+    },
+    {
+        "id": "435",
+        "name": "Skuntank",
+        "chinese_name": "坦克臭鼬"
+    },
+    {
+        "id": "436",
+        "name": "Bronzor",
+        "chinese_name": "銅鏡怪"
+    },
+    {
+        "id": "437",
+        "name": "Bronzong",
+        "chinese_name": "青銅鐘"
+    },
+    {
+        "id": "438",
+        "name": "Bonsly",
+        "chinese_name": "盆才怪"
+    },
+    {
+        "id": "439",
+        "name": "Mime Jr.",
+        "chinese_name": "魔尼尼*"
+    },
+    {
+        "id": "440",
+        "name": "Happiny",
+        "chinese_name": "小福蛋"
+    },
+    {
+        "id": "441",
+        "name": "Chatot",
+        "chinese_name": "聒噪鳥"
+    },
+    {
+        "id": "442",
+        "name": "Spiritomb",
+        "chinese_name": "花岩怪"
+    },
+    {
+        "id": "443",
+        "name": "Gible",
+        "chinese_name": "圓陸鯊"
+    },
+    {
+        "id": "444",
+        "name": "Gabite",
+        "chinese_name": "尖牙陸鯊"
+    },
+    {
+        "id": "445",
+        "name": "Garchomp",
+        "chinese_name": "烈咬陸鯊"
+    },
+    {
+        "id": "446",
+        "name": "Munchlax",
+        "chinese_name": "小卡比獸"
+    },
+    {
+        "id": "447",
+        "name": "Riolu",
+        "chinese_name": "利歐路"
+    },
+    {
+        "id": "448",
+        "name": "Lucario",
+        "chinese_name": "路卡利歐"
+    },
+    {
+        "id": "449",
+        "name": "Hippopotas",
+        "chinese_name": "沙河馬"
+    },
+    {
+        "id": "450",
+        "name": "Hippowdon",
+        "chinese_name": "河馬獸"
+    },
+    {
+        "id": "451",
+        "name": "Skorupi",
+        "chinese_name": "鉗尾蠍"
+    },
+    {
+        "id": "452",
+        "name": "Drapion",
+        "chinese_name": "龍王蠍"
+    },
+    {
+        "id": "453",
+        "name": "Croagunk",
+        "chinese_name": "不良蛙"
+    },
+    {
+        "id": "454",
+        "name": "Toxicroak",
+        "chinese_name": "毒骷蛙"
+    },
+    {
+        "id": "455",
+        "name": "Carnivine",
+        "chinese_name": "尖牙籠"
+    },
+    {
+        "id": "456",
+        "name": "Finneon",
+        "chinese_name": "螢光魚"
+    },
+    {
+        "id": "457",
+        "name": "Lumineon",
+        "chinese_name": "霓虹魚"
+    },
+    {
+        "id": "458",
+        "name": "Mantyke",
+        "chinese_name": "小球飛魚"
+    },
+    {
+        "id": "459",
+        "name": "Snover",
+        "chinese_name": "雪笠怪"
+    },
+    {
+        "id": "460",
+        "name": "Abomasnow",
+        "chinese_name": "暴雪王"
+    },
+    {
+        "id": "461",
+        "name": "Weavile",
+        "chinese_name": "瑪狃拉"
+    },
+    {
+        "id": "462",
+        "name": "Magnezone",
+        "chinese_name": "自爆磁怪"
+    },
+    {
+        "id": "463",
+        "name": "Lickilicky",
+        "chinese_name": "大舌舔"
+    },
+    {
+        "id": "464",
+        "name": "Rhyperior",
+        "chinese_name": "超甲狂犀"
+    },
+    {
+        "id": "465",
+        "name": "Tangrowth",
+        "chinese_name": "巨蔓藤"
+    },
+    {
+        "id": "466",
+        "name": "Electivire",
+        "chinese_name": "電擊魔獸"
+    },
+    {
+        "id": "467",
+        "name": "Magmortar",
+        "chinese_name": "鴨嘴炎獸"
+    },
+    {
+        "id": "468",
+        "name": "Togekiss",
+        "chinese_name": "波克基斯*"
+    },
+    {
+        "id": "469",
+        "name": "Yanmega",
+        "chinese_name": "遠古巨蜓"
+    },
+    {
+        "id": "470",
+        "name": "Leafeon",
+        "chinese_name": "葉伊布"
+    },
+    {
+        "id": "471",
+        "name": "Glaceon",
+        "chinese_name": "冰伊布"
+    },
+    {
+        "id": "472",
+        "name": "Gliscor",
+        "chinese_name": "天蠍王"
+    },
+    {
+        "id": "473",
+        "name": "Mamoswine",
+        "chinese_name": "象牙豬"
+    },
+    {
+        "id": "474",
+        "name": "Porygon-Z",
+        "chinese_name": "多邊獸Ｚ"
+    },
+    {
+        "id": "475",
+        "name": "Gallade",
+        "chinese_name": "艾路雷朵"
+    },
+    {
+        "id": "476",
+        "name": "Probopass",
+        "chinese_name": "大朝北鼻"
+    },
+    {
+        "id": "477",
+        "name": "Dusknoir",
+        "chinese_name": "黑夜魔靈"
+    },
+    {
+        "id": "478",
+        "name": "Froslass",
+        "chinese_name": "雪妖女"
+    },
+    {
+        "id": "479",
+        "name": "Rotom",
+        "chinese_name": "洛托姆"
+    },
+    {
+        "id": "480",
+        "name": "Uxie",
+        "chinese_name": "由克希"
+    },
+    {
+        "id": "481",
+        "name": "Mesprit",
+        "chinese_name": "艾姆利多"
+    },
+    {
+        "id": "482",
+        "name": "Azelf",
+        "chinese_name": "亞克諾姆"
+    },
+    {
+        "id": "483",
+        "name": "Dialga",
+        "chinese_name": "帝牙盧卡"
+    },
+    {
+        "id": "484",
+        "name": "Palkia",
+        "chinese_name": "帕路奇亞"
+    },
+    {
+        "id": "485",
+        "name": "Heatran",
+        "chinese_name": "席多藍恩"
+    },
+    {
+        "id": "486",
+        "name": "Regigigas",
+        "chinese_name": "雷吉奇卡斯"
+    },
+    {
+        "id": "487",
+        "name": "Giratina",
+        "chinese_name": "騎拉帝納"
+    },
+    {
+        "id": "488",
+        "name": "Cresselia",
+        "chinese_name": "克雷色利亞"
+    },
+    {
+        "id": "489",
+        "name": "Phione",
+        "chinese_name": "霏歐納"
+    },
+    {
+        "id": "490",
+        "name": "Manaphy",
+        "chinese_name": "瑪納霏"
+    },
+    {
+        "id": "491",
+        "name": "Darkrai",
+        "chinese_name": "達克萊伊"
+    },
+    {
+        "id": "492",
+        "name": "Shaymin",
+        "chinese_name": "謝米"
+    },
+    {
+        "id": "493",
+        "name": "Arceus",
+        "chinese_name": "阿爾宙斯"
+    },
+    {
+        "id": "494",
+        "name": "Victini",
+        "chinese_name": "比克提尼"
+    },
+    {
+        "id": "495",
+        "name": "Snivy",
+        "chinese_name": "藤藤蛇"
+    },
+    {
+        "id": "496",
+        "name": "Servine",
+        "chinese_name": "青藤蛇"
+    },
+    {
+        "id": "497",
+        "name": "Serperior",
+        "chinese_name": "君主蛇"
+    },
+    {
+        "id": "498",
+        "name": "Tepig",
+        "chinese_name": "暖暖豬"
+    },
+    {
+        "id": "499",
+        "name": "Pignite",
+        "chinese_name": "炒炒豬"
+    },
+    {
+        "id": "500",
+        "name": "Emboar",
+        "chinese_name": "炎武王"
+    },
+    {
+        "id": "501",
+        "name": "Oshawott",
+        "chinese_name": "水水獺"
+    },
+    {
+        "id": "502",
+        "name": "Dewott",
+        "chinese_name": "雙刃丸"
+    },
+    {
+        "id": "503",
+        "name": "Samurott",
+        "chinese_name": "大劍鬼"
+    },
+    {
+        "id": "503-1",
+        "name": "Hisuian Samurott",
+        "chinese_name": "大劍鬼洗翠的樣子"
+    },
+    {
+        "id": "504",
+        "name": "Patrat",
+        "chinese_name": "探探鼠"
+    },
+    {
+        "id": "505",
+        "name": "Watchog",
+        "chinese_name": "步哨鼠"
+    },
+    {
+        "id": "506",
+        "name": "Lillipup",
+        "chinese_name": "小約克"
+    },
+    {
+        "id": "507",
+        "name": "Herdier",
+        "chinese_name": "哈約克"
+    },
+    {
+        "id": "508",
+        "name": "Stoutland",
+        "chinese_name": "長毛狗"
+    },
+    {
+        "id": "509",
+        "name": "Purrloin",
+        "chinese_name": "扒手貓"
+    },
+    {
+        "id": "510",
+        "name": "Liepard",
+        "chinese_name": "酷豹"
+    },
+    {
+        "id": "511",
+        "name": "Pansage",
+        "chinese_name": "花椰猴"
+    },
+    {
+        "id": "512",
+        "name": "Simisage",
+        "chinese_name": "花椰猿"
+    },
+    {
+        "id": "513",
+        "name": "Pansear",
+        "chinese_name": "爆香猴"
+    },
+    {
+        "id": "514",
+        "name": "Simisear",
+        "chinese_name": "爆香猿"
+    },
+    {
+        "id": "515",
+        "name": "Panpour",
+        "chinese_name": "冷水猴"
+    },
+    {
+        "id": "516",
+        "name": "Simipour",
+        "chinese_name": "冷水猿"
+    },
+    {
+        "id": "517",
+        "name": "Munna",
+        "chinese_name": "食夢夢"
+    },
+    {
+        "id": "518",
+        "name": "Musharna",
+        "chinese_name": "夢夢蝕"
+    },
+    {
+        "id": "519",
+        "name": "Pidove",
+        "chinese_name": "豆豆鴿"
+    },
+    {
+        "id": "520",
+        "name": "Tranquill",
+        "chinese_name": "咕咕鴿"
+    },
+    {
+        "id": "521",
+        "name": "Unfezant",
+        "chinese_name": "高傲雉雞"
+    },
+    {
+        "id": "522",
+        "name": "Blitzle",
+        "chinese_name": "斑斑馬"
+    },
+    {
+        "id": "523",
+        "name": "Zebstrika",
+        "chinese_name": "雷電斑馬"
+    },
+    {
+        "id": "524",
+        "name": "Roggenrola",
+        "chinese_name": "石丸子"
+    },
+    {
+        "id": "525",
+        "name": "Boldore",
+        "chinese_name": "地幔岩"
+    },
+    {
+        "id": "526",
+        "name": "Gigalith",
+        "chinese_name": "龐岩怪"
+    },
+    {
+        "id": "527",
+        "name": "Woobat",
+        "chinese_name": "滾滾蝙蝠"
+    },
+    {
+        "id": "528",
+        "name": "Swoobat",
+        "chinese_name": "心蝙蝠"
+    },
+    {
+        "id": "529",
+        "name": "Drilbur",
+        "chinese_name": "螺釘地鼠"
+    },
+    {
+        "id": "530",
+        "name": "Excadrill",
+        "chinese_name": "龍頭地鼠"
+    },
+    {
+        "id": "531",
+        "name": "Audino",
+        "chinese_name": "差不多娃娃"
+    },
+    {
+        "id": "532",
+        "name": "Timburr",
+        "chinese_name": "搬運小匠"
+    },
+    {
+        "id": "533",
+        "name": "Gurdurr",
+        "chinese_name": "鐵骨土人"
+    },
+    {
+        "id": "534",
+        "name": "Conkeldurr",
+        "chinese_name": "修建老匠"
+    },
+    {
+        "id": "535",
+        "name": "Tympole",
+        "chinese_name": "圓蝌蚪"
+    },
+    {
+        "id": "536",
+        "name": "Palpitoad",
+        "chinese_name": "藍蟾蜍"
+    },
+    {
+        "id": "537",
+        "name": "Seismitoad",
+        "chinese_name": "蟾蜍王"
+    },
+    {
+        "id": "538",
+        "name": "Throh",
+        "chinese_name": "投摔鬼"
+    },
+    {
+        "id": "539",
+        "name": "Sawk",
+        "chinese_name": "打擊鬼"
+    },
+    {
+        "id": "540",
+        "name": "Sewaddle",
+        "chinese_name": "蟲寶包"
+    },
+    {
+        "id": "541",
+        "name": "Swadloon",
+        "chinese_name": "寶包繭"
+    },
+    {
+        "id": "542",
+        "name": "Leavanny",
+        "chinese_name": "保母蟲"
+    },
+    {
+        "id": "543",
+        "name": "Venipede",
+        "chinese_name": "百足蜈蚣"
+    },
+    {
+        "id": "544",
+        "name": "Whirlipede",
+        "chinese_name": "車輪毬"
+    },
+    {
+        "id": "545",
+        "name": "Scolipede",
+        "chinese_name": "蜈蚣王"
+    },
+    {
+        "id": "546",
+        "name": "Cottonee",
+        "chinese_name": "木棉球*"
+    },
+    {
+        "id": "547",
+        "name": "Whimsicott",
+        "chinese_name": "風妖精*"
+    },
+    {
+        "id": "548",
+        "name": "Petilil",
+        "chinese_name": "百合根娃娃"
+    },
+    {
+        "id": "549",
+        "name": "Lilligant",
+        "chinese_name": "裙兒小姐"
+    },
+    {
+        "id": "549-1",
+        "name": "Hisuian Lilligant",
+        "chinese_name": "裙兒小姐洗翠的樣子"
+    },
+    {
+        "id": "550",
+        "name": "Basculin",
+        "chinese_name": "野蠻鱸魚"
+    },
+    {
+        "id": "550-1",
+        "name": "Basculin",
+        "chinese_name": "野蠻鱸魚白條紋的樣子"
+    },
+    {
+        "id": "551",
+        "name": "Sandile",
+        "chinese_name": "黑眼鱷"
+    },
+    {
+        "id": "552",
+        "name": "Krokorok",
+        "chinese_name": "混混鱷"
+    },
+    {
+        "id": "553",
+        "name": "Krookodile",
+        "chinese_name": "流氓鱷"
+    },
+    {
+        "id": "554",
+        "name": "Darumaka",
+        "chinese_name": "火紅不倒翁"
+    },
+    {
+        "id": "554-1",
+        "name": "Galarian Darumaka",
+        "chinese_name": "火紅不倒翁伽勒爾的樣子"
+    },
+    {
+        "id": "555",
+        "name": "Darmanitan",
+        "chinese_name": "達摩狒狒"
+    },
+    {
+        "id": "555-2",
+        "name": "Galarian Darmanitan",
+        "chinese_name": "達摩狒狒伽勒爾的樣子"
+    },
+    {
+        "id": "556",
+        "name": "Maractus",
+        "chinese_name": "沙鈴仙人掌"
+    },
+    {
+        "id": "557",
+        "name": "Dwebble",
+        "chinese_name": "石居蟹"
+    },
+    {
+        "id": "558",
+        "name": "Crustle",
+        "chinese_name": "岩殿居蟹"
+    },
+    {
+        "id": "559",
+        "name": "Scraggy",
+        "chinese_name": "滑滑小子"
+    },
+    {
+        "id": "560",
+        "name": "Scrafty",
+        "chinese_name": "頭巾混混"
+    },
+    {
+        "id": "561",
+        "name": "Sigilyph",
+        "chinese_name": "象徵鳥"
+    },
+    {
+        "id": "562",
+        "name": "Yamask",
+        "chinese_name": "哭哭面具"
+    },
+    {
+        "id": "562-1",
+        "name": "Galarian Yamask",
+        "chinese_name": "哭哭面具伽勒爾的樣子"
+    },
+    {
+        "id": "563",
+        "name": "Cofagrigus",
+        "chinese_name": "死神棺"
+    },
+    {
+        "id": "564",
+        "name": "Tirtouga",
+        "chinese_name": "原蓋海龜"
+    },
+    {
+        "id": "565",
+        "name": "Carracosta",
+        "chinese_name": "肋骨海龜"
+    },
+    {
+        "id": "566",
+        "name": "Archen",
+        "chinese_name": "始祖小鳥"
+    },
+    {
+        "id": "567",
+        "name": "Archeops",
+        "chinese_name": "始祖大鳥"
+    },
+    {
+        "id": "568",
+        "name": "Trubbish",
+        "chinese_name": "破破袋"
+    },
+    {
+        "id": "569",
+        "name": "Garbodor",
+        "chinese_name": "灰塵山"
+    },
+    {
+        "id": "570",
+        "name": "Zorua",
+        "chinese_name": "索羅亞"
+    },
+    {
+        "id": "570-1",
+        "name": "Hisuian Zorua",
+        "chinese_name": "索羅亞洗翠的樣子"
+    },
+    {
+        "id": "571",
+        "name": "Zoroark",
+        "chinese_name": "索羅亞克"
+    },
+    {
+        "id": "571-1",
+        "name": "Hisuian Zoroark",
+        "chinese_name": "索羅亞克洗翠的樣子"
+    },
+    {
+        "id": "572",
+        "name": "Minccino",
+        "chinese_name": "泡沫栗鼠"
+    },
+    {
+        "id": "573",
+        "name": "Cinccino",
+        "chinese_name": "奇諾栗鼠"
+    },
+    {
+        "id": "574",
+        "name": "Gothita",
+        "chinese_name": "哥德寶寶"
+    },
+    {
+        "id": "575",
+        "name": "Gothorita",
+        "chinese_name": "哥德小童"
+    },
+    {
+        "id": "576",
+        "name": "Gothitelle",
+        "chinese_name": "哥德小姐"
+    },
+    {
+        "id": "577",
+        "name": "Solosis",
+        "chinese_name": "單卵細胞球"
+    },
+    {
+        "id": "578",
+        "name": "Duosion",
+        "chinese_name": "雙卵細胞球"
+    },
+    {
+        "id": "579",
+        "name": "Reuniclus",
+        "chinese_name": "人造細胞卵"
+    },
+    {
+        "id": "580",
+        "name": "Ducklett",
+        "chinese_name": "鴨寶寶"
+    },
+    {
+        "id": "581",
+        "name": "Swanna",
+        "chinese_name": "舞天鵝"
+    },
+    {
+        "id": "582",
+        "name": "Vanillite",
+        "chinese_name": "迷你冰"
+    },
+    {
+        "id": "583",
+        "name": "Vanillish",
+        "chinese_name": "多多冰"
+    },
+    {
+        "id": "584",
+        "name": "Vanilluxe",
+        "chinese_name": "雙倍多多冰"
+    },
+    {
+        "id": "585",
+        "name": "Deerling",
+        "chinese_name": "四季鹿"
+    },
+    {
+        "id": "586",
+        "name": "Sawsbuck",
+        "chinese_name": "萌芽鹿"
+    },
+    {
+        "id": "587",
+        "name": "Emolga",
+        "chinese_name": "電飛鼠"
+    },
+    {
+        "id": "588",
+        "name": "Karrablast",
+        "chinese_name": "蓋蓋蟲"
+    },
+    {
+        "id": "589",
+        "name": "Escavalier",
+        "chinese_name": "騎士蝸牛"
+    },
+    {
+        "id": "590",
+        "name": "Foongus",
+        "chinese_name": "哎呀球菇"
+    },
+    {
+        "id": "591",
+        "name": "Amoonguss",
+        "chinese_name": "敗露球菇"
+    },
+    {
+        "id": "592",
+        "name": "Frillish",
+        "chinese_name": "輕飄飄"
+    },
+    {
+        "id": "593",
+        "name": "Jellicent",
+        "chinese_name": "胖嘟嘟"
+    },
+    {
+        "id": "594",
+        "name": "Alomomola",
+        "chinese_name": "保母曼波"
+    },
+    {
+        "id": "595",
+        "name": "Joltik",
+        "chinese_name": "電電蟲"
+    },
+    {
+        "id": "596",
+        "name": "Galvantula",
+        "chinese_name": "電蜘蛛"
+    },
+    {
+        "id": "597",
+        "name": "Ferroseed",
+        "chinese_name": "種子鐵球"
+    },
+    {
+        "id": "598",
+        "name": "Ferrothorn",
+        "chinese_name": "堅果啞鈴"
+    },
+    {
+        "id": "599",
+        "name": "Klink",
+        "chinese_name": "齒輪兒"
+    },
+    {
+        "id": "600",
+        "name": "Klang",
+        "chinese_name": "齒輪組"
+    },
+    {
+        "id": "601",
+        "name": "Klinklang",
+        "chinese_name": "齒輪怪"
+    },
+    {
+        "id": "602",
+        "name": "Tynamo",
+        "chinese_name": "麻麻小魚"
+    },
+    {
+        "id": "603",
+        "name": "Eelektrik",
+        "chinese_name": "麻麻鰻"
+    },
+    {
+        "id": "604",
+        "name": "Eelektross",
+        "chinese_name": "麻麻鰻魚王"
+    },
+    {
+        "id": "605",
+        "name": "Elgyem",
+        "chinese_name": "小灰怪"
+    },
+    {
+        "id": "606",
+        "name": "Beheeyem",
+        "chinese_name": "大宇怪"
+    },
+    {
+        "id": "607",
+        "name": "Litwick",
+        "chinese_name": "燭光靈"
+    },
+    {
+        "id": "608",
+        "name": "Lampent",
+        "chinese_name": "燈火幽靈"
+    },
+    {
+        "id": "609",
+        "name": "Chandelure",
+        "chinese_name": "水晶燈火靈"
+    },
+    {
+        "id": "610",
+        "name": "Axew",
+        "chinese_name": "牙牙"
+    },
+    {
+        "id": "611",
+        "name": "Fraxure",
+        "chinese_name": "斧牙龍"
+    },
+    {
+        "id": "612",
+        "name": "Haxorus",
+        "chinese_name": "雙斧戰龍"
+    },
+    {
+        "id": "613",
+        "name": "Cubchoo",
+        "chinese_name": "噴嚏熊"
+    },
+    {
+        "id": "614",
+        "name": "Beartic",
+        "chinese_name": "凍原熊"
+    },
+    {
+        "id": "615",
+        "name": "Cryogonal",
+        "chinese_name": "幾何雪花"
+    },
+    {
+        "id": "616",
+        "name": "Shelmet",
+        "chinese_name": "小嘴蝸"
+    },
+    {
+        "id": "617",
+        "name": "Accelgor",
+        "chinese_name": "敏捷蟲"
+    },
+    {
+        "id": "618",
+        "name": "Stunfisk",
+        "chinese_name": "泥巴魚"
+    },
+    {
+        "id": "618-1",
+        "name": "Galarian Stunfisk",
+        "chinese_name": "泥巴魚伽勒爾的樣子"
+    },
+    {
+        "id": "619",
+        "name": "Mienfoo",
+        "chinese_name": "功夫鼬"
+    },
+    {
+        "id": "620",
+        "name": "Mienshao",
+        "chinese_name": "師父鼬"
+    },
+    {
+        "id": "621",
+        "name": "Druddigon",
+        "chinese_name": "赤面龍"
+    },
+    {
+        "id": "622",
+        "name": "Golett",
+        "chinese_name": "泥偶小人"
+    },
+    {
+        "id": "623",
+        "name": "Golurk",
+        "chinese_name": "泥偶巨人"
+    },
+    {
+        "id": "624",
+        "name": "Pawniard",
+        "chinese_name": "駒刀小兵"
+    },
+    {
+        "id": "625",
+        "name": "Bisharp",
+        "chinese_name": "劈斬司令"
+    },
+    {
+        "id": "626",
+        "name": "Bouffalant",
+        "chinese_name": "爆炸頭水牛"
+    },
+    {
+        "id": "627",
+        "name": "Rufflet",
+        "chinese_name": "毛頭小鷹"
+    },
+    {
+        "id": "628",
+        "name": "Braviary",
+        "chinese_name": "勇士雄鷹"
+    },
+    {
+        "id": "628-1",
+        "name": "Hisuian Braviary",
+        "chinese_name": "勇士雄鷹洗翠的樣子"
+    },
+    {
+        "id": "629",
+        "name": "Vullaby",
+        "chinese_name": "禿鷹丫頭"
+    },
+    {
+        "id": "630",
+        "name": "Mandibuzz",
+        "chinese_name": "禿鷹娜"
+    },
+    {
+        "id": "631",
+        "name": "Heatmor",
+        "chinese_name": "熔蟻獸"
+    },
+    {
+        "id": "632",
+        "name": "Durant",
+        "chinese_name": "鐵蟻"
+    },
+    {
+        "id": "633",
+        "name": "Deino",
+        "chinese_name": "單首龍"
+    },
+    {
+        "id": "634",
+        "name": "Zweilous",
+        "chinese_name": "雙首暴龍"
+    },
+    {
+        "id": "635",
+        "name": "Hydreigon",
+        "chinese_name": "三首惡龍"
+    },
+    {
+        "id": "636",
+        "name": "Larvesta",
+        "chinese_name": "燃燒蟲"
+    },
+    {
+        "id": "637",
+        "name": "Volcarona",
+        "chinese_name": "火神蛾"
+    },
+    {
+        "id": "638",
+        "name": "Cobalion",
+        "chinese_name": "勾帕路翁"
+    },
+    {
+        "id": "639",
+        "name": "Terrakion",
+        "chinese_name": "代拉基翁"
+    },
+    {
+        "id": "640",
+        "name": "Virizion",
+        "chinese_name": "畢力吉翁"
+    },
+    {
+        "id": "641",
+        "name": "Tornadus",
+        "chinese_name": "龍捲雲"
+    },
+    {
+        "id": "642",
+        "name": "Thundurus",
+        "chinese_name": "雷電雲"
+    },
+    {
+        "id": "643",
+        "name": "Reshiram",
+        "chinese_name": "萊希拉姆"
+    },
+    {
+        "id": "644",
+        "name": "Zekrom",
+        "chinese_name": "捷克羅姆"
+    },
+    {
+        "id": "645",
+        "name": "Landorus",
+        "chinese_name": "土地雲"
+    },
+    {
+        "id": "646",
+        "name": "Kyurem",
+        "chinese_name": "酋雷姆"
+    },
+    {
+        "id": "647",
+        "name": "Keldeo",
+        "chinese_name": "凱路迪歐"
+    },
+    {
+        "id": "648",
+        "name": "Meloetta",
+        "chinese_name": "美洛耶塔"
+    },
+    {
+        "id": "649",
+        "name": "Genesect",
+        "chinese_name": "蓋諾賽克特"
+    },
+    {
+        "id": "650",
+        "name": "Chespin",
+        "chinese_name": "哈力栗"
+    },
+    {
+        "id": "651",
+        "name": "Quilladin",
+        "chinese_name": "胖胖哈力"
+    },
+    {
+        "id": "652",
+        "name": "Chesnaught",
+        "chinese_name": "布里卡隆"
+    },
+    {
+        "id": "653",
+        "name": "Fennekin",
+        "chinese_name": "火狐狸"
+    },
+    {
+        "id": "654",
+        "name": "Braixen",
+        "chinese_name": "長尾火狐"
+    },
+    {
+        "id": "655",
+        "name": "Delphox",
+        "chinese_name": "妖火紅狐"
+    },
+    {
+        "id": "656",
+        "name": "Froakie",
+        "chinese_name": "呱呱泡蛙"
+    },
+    {
+        "id": "657",
+        "name": "Frogadier",
+        "chinese_name": "呱頭蛙"
+    },
+    {
+        "id": "658",
+        "name": "Greninja",
+        "chinese_name": "甲賀忍蛙"
+    },
+    {
+        "id": "659",
+        "name": "Bunnelby",
+        "chinese_name": "掘掘兔"
+    },
+    {
+        "id": "660",
+        "name": "Diggersby",
+        "chinese_name": "掘地兔"
+    },
+    {
+        "id": "661",
+        "name": "Fletchling",
+        "chinese_name": "小箭雀"
+    },
+    {
+        "id": "662",
+        "name": "Fletchinder",
+        "chinese_name": "火箭雀"
+    },
+    {
+        "id": "663",
+        "name": "Talonflame",
+        "chinese_name": "烈箭鷹"
+    },
+    {
+        "id": "664",
+        "name": "Scatterbug",
+        "chinese_name": "粉蝶蟲"
+    },
+    {
+        "id": "665",
+        "name": "Spewpa",
+        "chinese_name": "粉蝶蛹"
+    },
+    {
+        "id": "666",
+        "name": "Vivillon",
+        "chinese_name": "彩粉蝶"
+    },
+    {
+        "id": "667",
+        "name": "Litleo",
+        "chinese_name": "小獅獅"
+    },
+    {
+        "id": "668",
+        "name": "Pyroar",
+        "chinese_name": "火炎獅"
+    },
+    {
+        "id": "669",
+        "name": "Flabebe",
+        "chinese_name": "花蓓蓓"
+    },
+    {
+        "id": "670",
+        "name": "Floette",
+        "chinese_name": "花葉蒂"
+    },
+    {
+        "id": "671",
+        "name": "Florges",
+        "chinese_name": "花潔夫人"
+    },
+    {
+        "id": "672",
+        "name": "Skiddo",
+        "chinese_name": "坐騎小羊"
+    },
+    {
+        "id": "673",
+        "name": "Gogoat",
+        "chinese_name": "坐騎山羊"
+    },
+    {
+        "id": "674",
+        "name": "Pancham",
+        "chinese_name": "頑皮熊貓"
+    },
+    {
+        "id": "675",
+        "name": "Pangoro",
+        "chinese_name": "流氓熊貓"
+    },
+    {
+        "id": "676",
+        "name": "Furfrou",
+        "chinese_name": "多麗米亞"
+    },
+    {
+        "id": "677",
+        "name": "Espurr",
+        "chinese_name": "妙喵"
+    },
+    {
+        "id": "678",
+        "name": "Meowstic",
+        "chinese_name": "超能妙喵"
+    },
+    {
+        "id": "679",
+        "name": "Honedge",
+        "chinese_name": "獨劍鞘"
+    },
+    {
+        "id": "680",
+        "name": "Doublade",
+        "chinese_name": "雙劍鞘"
+    },
+    {
+        "id": "681",
+        "name": "Aegislash",
+        "chinese_name": "堅盾劍怪"
+    },
+    {
+        "id": "682",
+        "name": "Spritzee",
+        "chinese_name": "粉香香"
+    },
+    {
+        "id": "683",
+        "name": "Aromatisse",
+        "chinese_name": "芳香精"
+    },
+    {
+        "id": "684",
+        "name": "Swirlix",
+        "chinese_name": "綿綿泡芙"
+    },
+    {
+        "id": "685",
+        "name": "Slurpuff",
+        "chinese_name": "胖甜妮"
+    },
+    {
+        "id": "686",
+        "name": "Inkay",
+        "chinese_name": "好啦魷"
+    },
+    {
+        "id": "687",
+        "name": "Malamar",
+        "chinese_name": "烏賊王"
+    },
+    {
+        "id": "688",
+        "name": "Binacle",
+        "chinese_name": "龜腳腳"
+    },
+    {
+        "id": "689",
+        "name": "Barbaracle",
+        "chinese_name": "龜足巨鎧"
+    },
+    {
+        "id": "690",
+        "name": "Skrelp",
+        "chinese_name": "垃垃藻"
+    },
+    {
+        "id": "691",
+        "name": "Dragalge",
+        "chinese_name": "毒藻龍"
+    },
+    {
+        "id": "692",
+        "name": "Clauncher",
+        "chinese_name": "鐵臂槍蝦"
+    },
+    {
+        "id": "693",
+        "name": "Clawitzer",
+        "chinese_name": "鋼炮臂蝦"
+    },
+    {
+        "id": "694",
+        "name": "Helioptile",
+        "chinese_name": "傘電蜥"
+    },
+    {
+        "id": "695",
+        "name": "Heliolisk",
+        "chinese_name": "光電傘蜥"
+    },
+    {
+        "id": "696",
+        "name": "Tyrunt",
+        "chinese_name": "寶寶暴龍"
+    },
+    {
+        "id": "697",
+        "name": "Tyrantrum",
+        "chinese_name": "怪顎龍"
+    },
+    {
+        "id": "698",
+        "name": "Amaura",
+        "chinese_name": "冰雪龍"
+    },
+    {
+        "id": "699",
+        "name": "Aurorus",
+        "chinese_name": "冰雪巨龍"
+    },
+    {
+        "id": "700",
+        "name": "Sylveon",
+        "chinese_name": "仙子伊布"
+    },
+    {
+        "id": "701",
+        "name": "Hawlucha",
+        "chinese_name": "摔角鷹人"
+    },
+    {
+        "id": "702",
+        "name": "Dedenne",
+        "chinese_name": "咚咚鼠"
+    },
+    {
+        "id": "703",
+        "name": "Carbink",
+        "chinese_name": "小碎鑽"
+    },
+    {
+        "id": "704",
+        "name": "Goomy",
+        "chinese_name": "黏黏寶"
+    },
+    {
+        "id": "705",
+        "name": "Sliggoo",
+        "chinese_name": "黏美兒"
+    },
+    {
+        "id": "705-1",
+        "name": "Hisuian Sliggoo",
+        "chinese_name": "黏美兒洗翠的樣子"
+    },
+    {
+        "id": "706",
+        "name": "Goodra",
+        "chinese_name": "黏美龍"
+    },
+    {
+        "id": "706-1",
+        "name": "Hisuian Goodra",
+        "chinese_name": "黏美龍洗翠的樣子"
+    },
+    {
+        "id": "707",
+        "name": "Klefki",
+        "chinese_name": "鑰圈兒"
+    },
+    {
+        "id": "708",
+        "name": "Phantump",
+        "chinese_name": "小木靈"
+    },
+    {
+        "id": "709",
+        "name": "Trevenant",
+        "chinese_name": "朽木妖"
+    },
+    {
+        "id": "710",
+        "name": "Pumpkaboo",
+        "chinese_name": "南瓜精"
+    },
+    {
+        "id": "711",
+        "name": "Gourgeist",
+        "chinese_name": "南瓜怪人"
+    },
+    {
+        "id": "712",
+        "name": "Bergmite",
+        "chinese_name": "冰寶"
+    },
+    {
+        "id": "713",
+        "name": "Avalugg",
+        "chinese_name": "冰岩怪"
+    },
+    {
+        "id": "713-1",
+        "name": "Hisuian Avalugg",
+        "chinese_name": "冰岩怪洗翠的樣子"
+    },
+    {
+        "id": "714",
+        "name": "Noibat",
+        "chinese_name": "嗡蝠"
+    },
+    {
+        "id": "715",
+        "name": "Noivern",
+        "chinese_name": "音波龍"
+    },
+    {
+        "id": "716",
+        "name": "Xerneas",
+        "chinese_name": "哲爾尼亞斯"
+    },
+    {
+        "id": "717",
+        "name": "Yveltal",
+        "chinese_name": "伊裴爾塔爾"
+    },
+    {
+        "id": "718",
+        "name": "Zygarde",
+        "chinese_name": "基格爾德"
+    },
+    {
+        "id": "719",
+        "name": "Diancie",
+        "chinese_name": "蒂安希"
+    },
+    {
+        "id": "720",
+        "name": "Hoopa",
+        "chinese_name": "胡帕"
+    },
+    {
+        "id": "721",
+        "name": "Volcanion",
+        "chinese_name": "波爾凱尼恩"
+    },
+    {
+        "id": "722",
+        "name": "Rowlet",
+        "chinese_name": "木木梟"
+    },
+    {
+        "id": "723",
+        "name": "Dartrix",
+        "chinese_name": "投羽梟"
+    },
+    {
+        "id": "724",
+        "name": "Decidueye",
+        "chinese_name": "狙射樹梟"
+    },
+    {
+        "id": "724-1",
+        "name": "Hisuian Decidueye",
+        "chinese_name": "狙射樹梟洗翠的樣子"
+    },
+    {
+        "id": "725",
+        "name": "Litten",
+        "chinese_name": "火斑喵"
+    },
+    {
+        "id": "726",
+        "name": "Torracat",
+        "chinese_name": "炎熱喵"
+    },
+    {
+        "id": "727",
+        "name": "Incineroar",
+        "chinese_name": "熾焰咆哮虎"
+    },
+    {
+        "id": "728",
+        "name": "Popplio",
+        "chinese_name": "球球海獅"
+    },
+    {
+        "id": "729",
+        "name": "Brionne",
+        "chinese_name": "花漾海獅"
+    },
+    {
+        "id": "730",
+        "name": "Primarina",
+        "chinese_name": "西獅海壬"
+    },
+    {
+        "id": "731",
+        "name": "Pikipek",
+        "chinese_name": "小篤兒"
+    },
+    {
+        "id": "732",
+        "name": "Trumbeak",
+        "chinese_name": "喇叭啄鳥"
+    },
+    {
+        "id": "733",
+        "name": "Toucannon",
+        "chinese_name": "銃嘴大鳥"
+    },
+    {
+        "id": "734",
+        "name": "Yungoos",
+        "chinese_name": "貓鼬少"
+    },
+    {
+        "id": "735",
+        "name": "Gumshoos",
+        "chinese_name": "貓鼬探長"
+    },
+    {
+        "id": "736",
+        "name": "Grubbin",
+        "chinese_name": "強顎雞母蟲"
+    },
+    {
+        "id": "737",
+        "name": "Charjabug",
+        "chinese_name": "蟲電寶"
+    },
+    {
+        "id": "738",
+        "name": "Vikavolt",
+        "chinese_name": "鍬農炮蟲"
+    },
+    {
+        "id": "739",
+        "name": "Crabrawler",
+        "chinese_name": "好勝蟹"
+    },
+    {
+        "id": "740",
+        "name": "Crabominable",
+        "chinese_name": "好勝毛蟹"
+    },
+    {
+        "id": "741",
+        "name": "Oricorio",
+        "chinese_name": "花舞鳥"
+    },
+    {
+        "id": "742",
+        "name": "Cutiefly",
+        "chinese_name": "萌虻"
+    },
+    {
+        "id": "743",
+        "name": "Ribombee",
+        "chinese_name": "蝶結萌虻"
+    },
+    {
+        "id": "744",
+        "name": "Rockruff",
+        "chinese_name": "岩狗狗"
+    },
+    {
+        "id": "745",
+        "name": "Lycanroc",
+        "chinese_name": "鬃岩狼人"
+    },
+    {
+        "id": "746",
+        "name": "Wishiwashi",
+        "chinese_name": "弱丁魚"
+    },
+    {
+        "id": "747",
+        "name": "Mareanie",
+        "chinese_name": "好壞星"
+    },
+    {
+        "id": "748",
+        "name": "Toxapex",
+        "chinese_name": "超壞星"
+    },
+    {
+        "id": "749",
+        "name": "Mudbray",
+        "chinese_name": "泥驢仔"
+    },
+    {
+        "id": "750",
+        "name": "Mudsdale",
+        "chinese_name": "重泥挽馬"
+    },
+    {
+        "id": "751",
+        "name": "Dewpider",
+        "chinese_name": "滴蛛"
+    },
+    {
+        "id": "752",
+        "name": "Araquanid",
+        "chinese_name": "滴蛛霸"
+    },
+    {
+        "id": "753",
+        "name": "Fomantis",
+        "chinese_name": "偽螳草"
+    },
+    {
+        "id": "754",
+        "name": "Lurantis",
+        "chinese_name": "蘭螳花"
+    },
+    {
+        "id": "755",
+        "name": "Morelull",
+        "chinese_name": "睡睡菇"
+    },
+    {
+        "id": "756",
+        "name": "Shiinotic",
+        "chinese_name": "燈罩夜菇"
+    },
+    {
+        "id": "757",
+        "name": "Salandit",
+        "chinese_name": "夜盜火蜥"
+    },
+    {
+        "id": "758",
+        "name": "Salazzle",
+        "chinese_name": "焰后蜥"
+    },
+    {
+        "id": "759",
+        "name": "Stufful",
+        "chinese_name": "童偶熊"
+    },
+    {
+        "id": "760",
+        "name": "Bewear",
+        "chinese_name": "穿著熊"
+    },
+    {
+        "id": "761",
+        "name": "Bounsweet",
+        "chinese_name": "甜竹竹"
+    },
+    {
+        "id": "762",
+        "name": "Steenee",
+        "chinese_name": "甜舞妮"
+    },
+    {
+        "id": "763",
+        "name": "Tsareena",
+        "chinese_name": "甜冷美后"
+    },
+    {
+        "id": "764",
+        "name": "Comfey",
+        "chinese_name": "花療環環"
+    },
+    {
+        "id": "765",
+        "name": "Oranguru",
+        "chinese_name": "智揮猩"
+    },
+    {
+        "id": "766",
+        "name": "Passimian",
+        "chinese_name": "投擲猴"
+    },
+    {
+        "id": "767",
+        "name": "Wimpod",
+        "chinese_name": "膽小蟲"
+    },
+    {
+        "id": "768",
+        "name": "Golisopod",
+        "chinese_name": "具甲武者"
+    },
+    {
+        "id": "769",
+        "name": "Sandygast",
+        "chinese_name": "沙丘娃"
+    },
+    {
+        "id": "770",
+        "name": "Palossand",
+        "chinese_name": "噬沙堡爺"
+    },
+    {
+        "id": "771",
+        "name": "Pyukumuku",
+        "chinese_name": "拳海參"
+    },
+    {
+        "id": "772",
+        "name": "Type: Null",
+        "chinese_name": "屬性：空"
+    },
+    {
+        "id": "773",
+        "name": "Silvally",
+        "chinese_name": "銀伴戰獸"
+    },
+    {
+        "id": "774",
+        "name": "Minior",
+        "chinese_name": "小隕星"
+    },
+    {
+        "id": "775",
+        "name": "Komala",
+        "chinese_name": "樹枕尾熊"
+    },
+    {
+        "id": "776",
+        "name": "Turtonator",
+        "chinese_name": "爆焰龜獸"
+    },
+    {
+        "id": "777",
+        "name": "Togedemaru",
+        "chinese_name": "托戈德瑪爾"
+    },
+    {
+        "id": "778",
+        "name": "Mimikyu",
+        "chinese_name": "謎擬Ｑ"
+    },
+    {
+        "id": "779",
+        "name": "Bruxish",
+        "chinese_name": "磨牙彩皮魚"
+    },
+    {
+        "id": "780",
+        "name": "Drampa",
+        "chinese_name": "老翁龍"
+    },
+    {
+        "id": "781",
+        "name": "Dhelmise",
+        "chinese_name": "破破舵輪"
+    },
+    {
+        "id": "782",
+        "name": "Jangmo-o",
+        "chinese_name": "心鱗寶"
+    },
+    {
+        "id": "783",
+        "name": "Hakamo-o",
+        "chinese_name": "鱗甲龍"
+    },
+    {
+        "id": "784",
+        "name": "Kommo-o",
+        "chinese_name": "杖尾鱗甲龍"
+    },
+    {
+        "id": "785",
+        "name": "Tapu Koko",
+        "chinese_name": "卡璞・鳴鳴"
+    },
+    {
+        "id": "786",
+        "name": "Tapu Lele",
+        "chinese_name": "卡璞・蝶蝶"
+    },
+    {
+        "id": "787",
+        "name": "Tapu Bulu",
+        "chinese_name": "卡璞・哞哞"
+    },
+    {
+        "id": "788",
+        "name": "Tapu Fini",
+        "chinese_name": "卡璞・鰭鰭"
+    },
+    {
+        "id": "789",
+        "name": "Cosmog",
+        "chinese_name": "科斯莫古"
+    },
+    {
+        "id": "790",
+        "name": "Cosmoem",
+        "chinese_name": "科斯莫姆"
+    },
+    {
+        "id": "791",
+        "name": "Solgaleo",
+        "chinese_name": "索爾迦雷歐"
+    },
+    {
+        "id": "792",
+        "name": "Lunala",
+        "chinese_name": "露奈雅拉"
+    },
+    {
+        "id": "793",
+        "name": "Nihilego",
+        "chinese_name": "虛吾伊德"
+    },
+    {
+        "id": "794",
+        "name": "Buzzwole",
+        "chinese_name": "爆肌蚊"
+    },
+    {
+        "id": "795",
+        "name": "Pheromosa",
+        "chinese_name": "費洛美螂"
+    },
+    {
+        "id": "796",
+        "name": "Xurkitree",
+        "chinese_name": "電束木"
+    },
+    {
+        "id": "797",
+        "name": "Celesteela",
+        "chinese_name": "鐵火輝夜"
+    },
+    {
+        "id": "798",
+        "name": "Kartana",
+        "chinese_name": "紙御劍"
+    },
+    {
+        "id": "799",
+        "name": "Guzzlord",
+        "chinese_name": "惡食大王"
+    },
+    {
+        "id": "800",
+        "name": "Necrozma",
+        "chinese_name": "奈克洛茲瑪"
+    },
+    {
+        "id": "801",
+        "name": "Magearna",
+        "chinese_name": "瑪機雅娜"
+    },
+    {
+        "id": "802",
+        "name": "Marshadow",
+        "chinese_name": "瑪夏多"
+    },
+    {
+        "id": "803",
+        "name": "Poipole",
+        "chinese_name": "毒貝比"
+    },
+    {
+        "id": "804",
+        "name": "Naganadel",
+        "chinese_name": "四顎針龍"
+    },
+    {
+        "id": "805",
+        "name": "Stakataka",
+        "chinese_name": "壘磊石"
+    },
+    {
+        "id": "806",
+        "name": "Blacephalon",
+        "chinese_name": "砰頭小丑"
+    },
+    {
+        "id": "807",
+        "name": "Zeraora",
+        "chinese_name": "捷拉奧拉"
+    },
+    {
+        "id": "808",
+        "name": "Meltan",
+        "chinese_name": "美錄坦"
+    },
+    {
+        "id": "809",
+        "name": "Melmetal",
+        "chinese_name": "美錄梅塔"
+    },
+    {
+        "id": "810",
+        "name": "Grookey",
+        "chinese_name": "敲音猴"
+    },
+    {
+        "id": "811",
+        "name": "Thwackey",
+        "chinese_name": "啪咚猴"
+    },
+    {
+        "id": "812",
+        "name": "Rillaboom",
+        "chinese_name": "轟擂金剛猩"
+    },
+    {
+        "id": "813",
+        "name": "Scorbunny",
+        "chinese_name": "炎兔兒"
+    },
+    {
+        "id": "814",
+        "name": "Raboot",
+        "chinese_name": "騰蹴小將"
+    },
+    {
+        "id": "815",
+        "name": "Cinderace",
+        "chinese_name": "閃焰王牌"
+    },
+    {
+        "id": "816",
+        "name": "Sobble",
+        "chinese_name": "淚眼蜥"
+    },
+    {
+        "id": "817",
+        "name": "Drizzile",
+        "chinese_name": "變澀蜥"
+    },
+    {
+        "id": "818",
+        "name": "Inteleon",
+        "chinese_name": "千面避役"
+    },
+    {
+        "id": "819",
+        "name": "Skwovet",
+        "chinese_name": "貪心栗鼠"
+    },
+    {
+        "id": "820",
+        "name": "Greedent",
+        "chinese_name": "藏飽栗鼠"
+    },
+    {
+        "id": "821",
+        "name": "Rookidee",
+        "chinese_name": "稚山雀"
+    },
+    {
+        "id": "822",
+        "name": "Corvisquire",
+        "chinese_name": "藍鴉"
+    },
+    {
+        "id": "823",
+        "name": "Corviknight",
+        "chinese_name": "鋼鎧鴉"
+    },
+    {
+        "id": "824",
+        "name": "Blipbug",
+        "chinese_name": "索偵蟲"
+    },
+    {
+        "id": "825",
+        "name": "Dottler",
+        "chinese_name": "天罩蟲"
+    },
+    {
+        "id": "826",
+        "name": "Orbeetle",
+        "chinese_name": "以歐路普"
+    },
+    {
+        "id": "827",
+        "name": "Nickit",
+        "chinese_name": "偷兒狐"
+    },
+    {
+        "id": "828",
+        "name": "Thievul",
+        "chinese_name": "狐大盜"
+    },
+    {
+        "id": "829",
+        "name": "Gossifleur",
+        "chinese_name": "幼棉棉"
+    },
+    {
+        "id": "830",
+        "name": "Eldegoss",
+        "chinese_name": "白蓬蓬"
+    },
+    {
+        "id": "831",
+        "name": "Wooloo",
+        "chinese_name": "毛辮羊"
+    },
+    {
+        "id": "832",
+        "name": "Dubwool",
+        "chinese_name": "毛毛角羊"
+    },
+    {
+        "id": "833",
+        "name": "Chewtle",
+        "chinese_name": "咬咬龜"
+    },
+    {
+        "id": "834",
+        "name": "Drednaw",
+        "chinese_name": "暴噬龜"
+    },
+    {
+        "id": "835",
+        "name": "Yamper",
+        "chinese_name": "來電汪"
+    },
+    {
+        "id": "836",
+        "name": "Boltund",
+        "chinese_name": "逐電犬"
+    },
+    {
+        "id": "837",
+        "name": "Rolycoly",
+        "chinese_name": "小炭仔"
+    },
+    {
+        "id": "838",
+        "name": "Carkol",
+        "chinese_name": "大炭車"
+    },
+    {
+        "id": "839",
+        "name": "Coalossal",
+        "chinese_name": "巨炭山"
+    },
+    {
+        "id": "840",
+        "name": "Applin",
+        "chinese_name": "啃果蟲"
+    },
+    {
+        "id": "841",
+        "name": "Flapple",
+        "chinese_name": "蘋裹龍"
+    },
+    {
+        "id": "842",
+        "name": "Appletun",
+        "chinese_name": "豐蜜龍"
+    },
+    {
+        "id": "843",
+        "name": "Silicobra",
+        "chinese_name": "沙包蛇"
+    },
+    {
+        "id": "844",
+        "name": "Sandaconda",
+        "chinese_name": "沙螺蟒"
+    },
+    {
+        "id": "845",
+        "name": "Cramorant",
+        "chinese_name": "古月鳥"
+    },
+    {
+        "id": "846",
+        "name": "Arrokuda",
+        "chinese_name": "刺梭魚"
+    },
+    {
+        "id": "847",
+        "name": "Barraskewda",
+        "chinese_name": "戽斗尖梭"
+    },
+    {
+        "id": "848",
+        "name": "Toxel",
+        "chinese_name": "毒電嬰"
+    },
+    {
+        "id": "849",
+        "name": "Toxtricity",
+        "chinese_name": "顫弦蠑螈"
+    },
+    {
+        "id": "850",
+        "name": "Sizzlipede",
+        "chinese_name": "燒火蚣"
+    },
+    {
+        "id": "851",
+        "name": "Centiskorch",
+        "chinese_name": "焚焰蚣"
+    },
+    {
+        "id": "852",
+        "name": "Clobbopus",
+        "chinese_name": "拳拳蛸"
+    },
+    {
+        "id": "853",
+        "name": "Grapploct",
+        "chinese_name": "八爪武師"
+    },
+    {
+        "id": "854",
+        "name": "Sinistea",
+        "chinese_name": "來悲茶"
+    },
+    {
+        "id": "855",
+        "name": "Polteageist",
+        "chinese_name": "怖思壺"
+    },
+    {
+        "id": "856",
+        "name": "Hatenna",
+        "chinese_name": "迷布莉姆"
+    },
+    {
+        "id": "857",
+        "name": "Hattrem",
+        "chinese_name": "提布莉姆"
+    },
+    {
+        "id": "858",
+        "name": "Hatterene",
+        "chinese_name": "布莉姆溫"
+    },
+    {
+        "id": "859",
+        "name": "Impidimp",
+        "chinese_name": "搗蛋小妖"
+    },
+    {
+        "id": "860",
+        "name": "Morgrem",
+        "chinese_name": "詐唬魔"
+    },
+    {
+        "id": "861",
+        "name": "Grimmsnarl",
+        "chinese_name": "長毛巨魔"
+    },
+    {
+        "id": "862",
+        "name": "Obstagoon",
+        "chinese_name": "堵攔熊"
+    },
+    {
+        "id": "863",
+        "name": "Perrserker",
+        "chinese_name": "喵頭目"
+    },
+    {
+        "id": "864",
+        "name": "Cursola",
+        "chinese_name": "魔靈珊瑚"
+    },
+    {
+        "id": "865",
+        "name": "Sirfetchd",
+        "chinese_name": "蔥遊兵"
+    },
+    {
+        "id": "866",
+        "name": "Mr. Rime",
+        "chinese_name": "踏冰人偶"
+    },
+    {
+        "id": "867",
+        "name": "Runerigus",
+        "chinese_name": "死神板"
+    },
+    {
+        "id": "868",
+        "name": "Milcery",
+        "chinese_name": "小仙奶"
+    },
+    {
+        "id": "869",
+        "name": "Alcremie",
+        "chinese_name": "霜奶仙"
+    },
+    {
+        "id": "870",
+        "name": "Falinks",
+        "chinese_name": "列陣兵"
+    },
+    {
+        "id": "871",
+        "name": "Pincurchin",
+        "chinese_name": "啪嚓海膽"
+    },
+    {
+        "id": "872",
+        "name": "Snom",
+        "chinese_name": "雪吞蟲"
+    },
+    {
+        "id": "873",
+        "name": "Frosmoth",
+        "chinese_name": "雪絨蛾"
+    },
+    {
+        "id": "874",
+        "name": "Stonjourner",
+        "chinese_name": "巨石丁"
+    },
+    {
+        "id": "875",
+        "name": "Eiscue",
+        "chinese_name": "冰砌鵝"
+    },
+    {
+        "id": "876",
+        "name": "Indeedee",
+        "chinese_name": "愛管侍"
+    },
+    {
+        "id": "877",
+        "name": "Morpeko",
+        "chinese_name": "莫魯貝可"
+    },
+    {
+        "id": "878",
+        "name": "Cufant",
+        "chinese_name": "銅象"
+    },
+    {
+        "id": "879",
+        "name": "Copperajah",
+        "chinese_name": "大王銅象"
+    },
+    {
+        "id": "880",
+        "name": "Dracozolt",
+        "chinese_name": "雷鳥龍"
+    },
+    {
+        "id": "881",
+        "name": "Arctozolt",
+        "chinese_name": "雷鳥海獸"
+    },
+    {
+        "id": "882",
+        "name": "Dracovish",
+        "chinese_name": "鰓魚龍"
+    },
+    {
+        "id": "883",
+        "name": "Arctovish",
+        "chinese_name": "鰓魚海獸"
+    },
+    {
+        "id": "884",
+        "name": "Duraludon",
+        "chinese_name": "鋁鋼龍"
+    },
+    {
+        "id": "885",
+        "name": "Dreepy",
+        "chinese_name": "多龍梅西亞"
+    },
+    {
+        "id": "886",
+        "name": "Drakloak",
+        "chinese_name": "多龍奇"
+    },
+    {
+        "id": "887",
+        "name": "Dragapult",
+        "chinese_name": "多龍巴魯托"
+    },
+    {
+        "id": "888",
+        "name": "Zacian",
+        "chinese_name": "蒼響"
+    },
+    {
+        "id": "889",
+        "name": "Zamazenta",
+        "chinese_name": "藏瑪然特"
+    },
+    {
+        "id": "890",
+        "name": "Eternatus",
+        "chinese_name": "無極汰那"
+    },
+    {
+        "id": "891",
+        "name": "Kubfu",
+        "chinese_name": "熊徒弟"
+    },
+    {
+        "id": "892",
+        "name": "Urshifu",
+        "chinese_name": "武道熊師"
+    },
+    {
+        "id": "893",
+        "name": "Zarude",
+        "chinese_name": "薩戮德"
+    },
+    {
+        "id": "894",
+        "name": "Regieleki",
+        "chinese_name": "雷吉艾勒奇"
+    },
+    {
+        "id": "895",
+        "name": "Regidrago",
+        "chinese_name": "雷吉鐸拉戈"
+    },
+    {
+        "id": "896",
+        "name": "Glastrier",
+        "chinese_name": "雪暴馬"
+    },
+    {
+        "id": "897",
+        "name": "Spectrier",
+        "chinese_name": "靈幽馬"
+    },
+    {
+        "id": "898",
+        "name": "Calyrex",
+        "chinese_name": "蕾冠王"
+    },
+    {
+        "id": "10428",
+        "name": "Wyrdeer",
+        "chinese_name": "詭角鹿"
+    },
+    {
+        "id": "10434",
+        "name": "Kleavor",
+        "chinese_name": "劈斧螳螂"
+    },
+    {
+        "id": "10427",
+        "name": "Ursaluna",
+        "chinese_name": "月月熊"
+    },
+    {
+        "id": "10430",
+        "name": "Basculegion",
+        "chinese_name": "幽尾玄魚"
+    },
+    {
+        "id": "10426",
+        "name": "Sneasler",
+        "chinese_name": "大狃拉"
+    },
+    {
+        "id": "10433",
+        "name": "Overqwil",
+        "chinese_name": "萬針魚"
+    },
+    {
+        "id": "10435",
+        "name": "Enamorus",
+        "chinese_name": "眷戀雲"
+    },
+    {
+        "id": "906",
+        "name": "Sprigatito",
+        "chinese_name": "新葉喵"
+    },
+    {
+        "id": "907",
+        "name": "Floragato",
+        "chinese_name": "蒂蕾喵"
+    },
+    {
+        "id": "908",
+        "name": "Meowscarada",
+        "chinese_name": "魔幻假面喵"
+    },
+    {
+        "id": "909",
+        "name": "Fuecoco",
+        "chinese_name": "呆火鱷"
+    },
+    {
+        "id": "910",
+        "name": "Crocalor",
+        "chinese_name": "炙燙鱷"
+    },
+    {
+        "id": "911",
+        "name": "Skeledirge",
+        "chinese_name": "骨紋巨聲鱷"
+    },
+    {
+        "id": "912",
+        "name": "Quaxly",
+        "chinese_name": "潤水鴨"
+    },
+    {
+        "id": "913",
+        "name": "Quaxwell",
+        "chinese_name": "涌躍鴨"
+    },
+    {
+        "id": "914",
+        "name": "Quaquaval",
+        "chinese_name": "狂歡浪舞鴨"
+    },
+    {
+        "id": "915",
+        "name": "Lechonk",
+        "chinese_name": "愛吃豚"
+    },
+    {
+        "id": "916",
+        "name": "Oinkologne",
+        "chinese_name": "飄香豚"
+    },
+    {
+        "id": "917",
+        "name": "Tarountula",
+        "chinese_name": "團珠蛛"
+    },
+    {
+        "id": "918",
+        "name": "Spidops",
+        "chinese_name": "操陷蛛"
+    },
+    {
+        "id": "919",
+        "name": "Nymble",
+        "chinese_name": "豆蟋蟀"
+    },
+    {
+        "id": "920",
+        "name": "Lokix",
+        "chinese_name": "烈腿蝗"
+    },
+    {
+        "id": "921",
+        "name": "Pawmi",
+        "chinese_name": "布撥"
+    },
+    {
+        "id": "922",
+        "name": "Pawmo",
+        "chinese_name": "布土撥"
+    },
+    {
+        "id": "923",
+        "name": "Pawmot",
+        "chinese_name": "巴布土撥"
+    },
+    {
+        "id": "924",
+        "name": "Clodsire",
+        "chinese_name": "土王"
+    },
+    {
+        "id": "925",
+        "name": "Tandemaus",
+        "chinese_name": "一對鼠"
+    },
+    {
+        "id": "926",
+        "name": "Maushold",
+        "chinese_name": "一家鼠"
+    },
+    {
+        "id": "927",
+        "name": "Fidough",
+        "chinese_name": "迷你芙"
+    },
+    {
+        "id": "928",
+        "name": "Dachsbun",
+        "chinese_name": "麻花犬"
+    },
+    {
+        "id": "929",
+        "name": "Smoliv",
+        "chinese_name": "迷你芙"
+    },
+    {
+        "id": "930",
+        "name": "Dolliv",
+        "chinese_name": "奧利紐"
+    },
+    {
+        "id": "931",
+        "name": "Arboliva",
+        "chinese_name": "奧利瓦"
+    },
+    {
+        "id": "932",
+        "name": "Squawkabilly",
+        "chinese_name": "怒鸚哥"
+    },
+    {
+        "id": "933",
+        "name": "Nacli",
+        "chinese_name": "鹽石寶"
+    },
+    {
+        "id": "934",
+        "name": "Naclstack",
+        "chinese_name": "鹽石壘"
+    },
+    {
+        "id": "935",
+        "name": "Garganacl",
+        "chinese_name": "鹽石巨靈"
+    },
+    {
+        "id": "936",
+        "name": "Annihilape",
+        "chinese_name": "棄世猴"
+    },
+    {
+        "id": "937",
+        "name": "Charcadet",
+        "chinese_name": "炭小侍"
+    },
+    {
+        "id": "938",
+        "name": "Armarouge",
+        "chinese_name": "紅蓮鎧騎"
+    },
+    {
+        "id": "939",
+        "name": "Ceruledge",
+        "chinese_name": "蒼炎刃鬼"
+    },
+    {
+        "id": "940",
+        "name": "Tadbulb",
+        "chinese_name": "光蚪仔"
+    },
+    {
+        "id": "941",
+        "name": "Bellibolt",
+        "chinese_name": "電肚蛙"
+    },
+    {
+        "id": "942",
+        "name": "Wattrel",
+        "chinese_name": "電海燕"
+    },
+    {
+        "id": "943",
+        "name": "Kilowattrel",
+        "chinese_name": "大電海燕"
+    },
+    {
+        "id": "944",
+        "name": "Dudunsparce",
+        "chinese_name": "土龍節節"
+    },
+    {
+        "id": "945",
+        "name": "Farigiraf",
+        "chinese_name": "奇麒麟"
+    },
+    {
+        "id": "946",
+        "name": "Maschiff",
+        "chinese_name": "偶叫獒"
+    },
+    {
+        "id": "947",
+        "name": "Mabosstiff",
+        "chinese_name": "獒教父"
+    },
+    {
+        "id": "948",
+        "name": "Shroodle",
+        "chinese_name": "滋汁鼴"
+    },
+    {
+        "id": "949",
+        "name": "Grafaiai",
+        "chinese_name": "塗標客"
+    },
+    {
+        "id": "950",
+        "name": "Bramblin",
+        "chinese_name": "納噬草"
+    },
+    {
+        "id": "951",
+        "name": "Brambleghast",
+        "chinese_name": "怖納噬草"
+    },
+    {
+        "id": "952",
+        "name": "Toedscool",
+        "chinese_name": "原野水母"
+    },
+    {
+        "id": "953",
+        "name": "Toedscruel",
+        "chinese_name": "陸地水母"
+    },
+    {
+        "id": "954",
+        "name": "Klawf",
+        "chinese_name": "毛崖蟹"
+    },
+    {
+        "id": "955",
+        "name": "Capsakid",
+        "chinese_name": "熱辣娃"
+    },
+    {
+        "id": "956",
+        "name": "Scovillain",
+        "chinese_name": "狠辣椒"
+    },
+    {
+        "id": "957",
+        "name": "Rellor",
+        "chinese_name": "蟲滾泥"
+    },
+    {
+        "id": "958",
+        "name": "Rabsca",
+        "chinese_name": "蟲甲聖"
+    },
+    {
+        "id": "959",
+        "name": "Flittle",
+        "chinese_name": "飄飄雛"
+    },
+    {
+        "id": "960",
+        "name": "Espathra",
+        "chinese_name": "超能艷鴕"
+    },
+    {
+        "id": "961",
+        "name": "Tinkatink",
+        "chinese_name": "小鍛匠"
+    },
+    {
+        "id": "962",
+        "name": "Tinkatuff",
+        "chinese_name": "巧鍛匠"
+    },
+    {
+        "id": "963",
+        "name": "Tinkaton",
+        "chinese_name": "巨鍛匠"
+    },
+    {
+        "id": "964",
+        "name": "Wiglett",
+        "chinese_name": "海地鼠"
+    },
+    {
+        "id": "965",
+        "name": "Wugtrio",
+        "chinese_name": "三海地鼠"
+    },
+    {
+        "id": "966",
+        "name": "Bombirdier",
+        "chinese_name": "下石鳥"
+    },
+    {
+        "id": "967",
+        "name": "Finizen",
+        "chinese_name": "波普海豚"
+    },
+    {
+        "id": "968",
+        "name": "Palafin",
+        "chinese_name": "海豚俠"
+    },
+    {
+        "id": "969",
+        "name": "Varoom",
+        "chinese_name": "噗隆隆"
+    },
+    {
+        "id": "970",
+        "name": "Revavroom",
+        "chinese_name": "普隆隆姆"
+    },
+    {
+        "id": "971",
+        "name": "Cyclizar",
+        "chinese_name": "摩托蜥"
+    },
+    {
+        "id": "972",
+        "name": "Orthworm",
+        "chinese_name": "拖拖蚓"
+    },
+    {
+        "id": "973",
+        "name": "Glimmet",
+        "chinese_name": "晶光芽"
+    },
+    {
+        "id": "974",
+        "name": "Glimmora",
+        "chinese_name": "晶光花"
+    },
+    {
+        "id": "975",
+        "name": "Greavard",
+        "chinese_name": "墓仔狗"
+    },
+    {
+        "id": "976",
+        "name": "Houndstone",
+        "chinese_name": "墓揚犬"
+    },
+    {
+        "id": "977",
+        "name": "Flamigo",
+        "chinese_name": "纏紅鶴"
+    },
+    {
+        "id": "978",
+        "name": "Cetoddle",
+        "chinese_name": "走鯨"
+    },
+    {
+        "id": "979",
+        "name": "Cetitan",
+        "chinese_name": "浩大鯨"
+    },
+    {
+        "id": "980",
+        "name": "Kingambit",
+        "chinese_name": "仆斬將軍"
+    },
+    {
+        "id": "981",
+        "name": "Veluza",
+        "chinese_name": "輕身鱈"
+    },
+    {
+        "id": "982",
+        "name": "Dondozo",
+        "chinese_name": "吃吼霸"
+    },
+    {
+        "id": "983",
+        "name": "Tatsugiri",
+        "chinese_name": "米立龍"
+    },
+    {
+        "id": "984",
+        "name": "Great Tusk",
+        "chinese_name": "雄偉牙"
+    },
+    {
+        "id": "985",
+        "name": "Scream Tail",
+        "chinese_name": "吼叫尾"
+    },
+    {
+        "id": "986",
+        "name": "Brute Bonnet",
+        "chinese_name": "猛惡菇"
+    },
+    {
+        "id": "987",
+        "name": "Flutter Mane",
+        "chinese_name": "振翼髮"
+    },
+    {
+        "id": "988",
+        "name": "Slither Wing",
+        "chinese_name": "爬地翅"
+    },
+    {
+        "id": "989",
+        "name": "Sandy Shocks",
+        "chinese_name": "沙鐵皮"
+    },
+    {
+        "id": "990",
+        "name": "Iron Treads",
+        "chinese_name": "鐵轍跡"
+    },
+    {
+        "id": "991",
+        "name": "Iron Bundle",
+        "chinese_name": "鐵包袱"
+    },
+    {
+        "id": "992",
+        "name": "Iron Hands",
+        "chinese_name": "鐵臂膀"
+    },
+    {
+        "id": "993",
+        "name": "Iron Jugulis",
+        "chinese_name": "鐵脖頸"
+    },
+    {
+        "id": "994",
+        "name": "Iron Moth",
+        "chinese_name": "鐵毒蛾"
+    },
+    {
+        "id": "995",
+        "name": "Iron Thorns",
+        "chinese_name": "鐵荊棘"
+    },
+    {
+        "id": "996",
+        "name": "Frigibax",
+        "chinese_name": "涼脊龍"
+    },
+    {
+        "id": "997",
+        "name": "Arctibax",
+        "chinese_name": "凍脊龍"
+    },
+    {
+        "id": "998",
+        "name": "Baxcalibur",
+        "chinese_name": "戟脊龍"
+    },
+    {
+        "id": "999",
+        "name": "Gimmighoul",
+        "chinese_name": "索財靈"
+    },
+    {
+        "id": "1000",
+        "name": "Gholdengo",
+        "chinese_name": "賽富豪"
+    },
+    {
+        "id": "1001",
+        "name": "Wo-Chien",
+        "chinese_name": "古簡蝸"
+    },
+    {
+        "id": "1002",
+        "name": "Chien-Pao",
+        "chinese_name": "古劍豹"
+    },
+    {
+        "id": "1003",
+        "name": "Ting-Lu",
+        "chinese_name": "古鼎鹿"
+    },
+    {
+        "id": "1004",
+        "name": "Chi-Yu",
+        "chinese_name": "古玉魚"
+    },
+    {
+        "id": "1005",
+        "name": "Roaring Moon",
+        "chinese_name": "轟鳴月"
+    },
+    {
+        "id": "1006",
+        "name": "Iron Valiant",
+        "chinese_name": "鐵武者"
+    },
+    {
+        "id": "1007",
+        "name": "Koraidon",
+        "chinese_name": "故勒頓"
+    },
+    {
+        "id": "1008",
+        "name": "Miraidon",
+        "chinese_name": "密勒頓"
+    }
+]

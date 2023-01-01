@@ -13,11 +13,11 @@ import click
 import os
 import json
 
-import shutil
-
+import threading
 
 base_path = os.path.dirname(os.path.abspath(__file__))
 data_path = os.path.join(os.path.abspath(base_path + "/../"), "data")
+want_catch_path = os.path.join(data_path, "want_catch official.json")
 pokemon_dataset_path = os.path.join(data_path, "pokemon_dataset.json")
 
 # Opening JSON file
@@ -25,6 +25,9 @@ f = open(pokemon_dataset_path, encoding="utf-8")
 data = json.load(f)
 f.close()
 
+f = open(want_catch_path, encoding="utf-8")
+want_catch_data = json.load(f)
+f.close()
 
 def switch(lang):
     if lang == "Doduo":
@@ -55,22 +58,26 @@ def catch(driver):
         try:
             base = driver.find_elements(
                 By.XPATH, './/article/div/div/div[contains(concat(" ",normalize-space(@class)," ")," imageContent-3Av-9c ")][contains(concat(" ",normalize-space(@class)," ")," embedThumbnail-2nTasl ")]/div/div/a[contains(@class, "originalLink-Azwuo9")]')
-
+            
             if (time_count >= 25):                
                 lastbutton = driver.find_elements(By.XPATH, '//*[@id="app-mount"]/div/div/div/div/div/div/div/div/div/div/div/main/div/div/div/ol/li')
                 driver.execute_script(
                     "arguments[0].scrollIntoView(true);", lastbutton[-1])
-                # print("refresh")
+                print("refresh")
                 time_count = 0
-                
-            time_count += 1
+            
+            time_count+=1
+            print(time_count)
 
             for temp in range(-1, -3, -1):
                 pokemon_url = base[temp].get_attribute('href')
                 pokemon_number = pokemon_url.split('/')[-1].split('-')[0]
                 pokemon_number_region = pokemon_url.split(
                     '/')[-1].split('-')[1]
-                
+
+                # driver.execute_script(
+                #     "arguments[0].scrollIntoView(true);", base[temp])
+
                 article_id = base[temp].find_element(
                     By.XPATH, "../../../../../../..").get_attribute("id")
                 if article_id:
@@ -83,18 +90,17 @@ def catch(driver):
                             if (i["id"] == pokemon_number):
                                 pokemon_name = i["name"]
                                 chinese_name = i["chinese_name"]
-                        print(f'快來和 {chinese_name} + 聖誕寶可夢，戰鬥啦')
+                        print("聖誕寶可夢，戰鬥啦" + chinese_name)
                         # 按下join
-
-                        article_selector = ".//*[@id='" + article_id + "']/div/div/div/button"
+                        article_selector = "#" + article_id + " > div > div > div > button"
                         driver.find_element(
-                            By.XPATH,  article_selector).click()
+                            By.CSS_SELECTOR,  article_selector).click()
 
                         # 找正確的技能名稱
                         keyword = ""
                         keyword = switch(pokemon_name)
                         print("請使用:" + keyword)
-                        # 文字1
+
                         time.sleep(10)
 
                         text1_xpath = './/*[@id="'+article_id + \
@@ -107,7 +113,7 @@ def catch(driver):
                             '"]/div[contains(concat(" ",normalize-space(@class)," ")," container-3Sqbyb ")]/div/div/button[(count(preceding-sibling::*)+1) = 4]/div/div/div'
 
                         wait.until(EC.presence_of_element_located(
-                            (By.XPATH, text1_xpath)))
+                            (By.XPATH, text2_xpath)))
 
                         text1 = driver.find_element(
                             By.XPATH, text1_xpath).get_attribute("innerText")
@@ -118,36 +124,70 @@ def catch(driver):
                         text4 = driver.find_element(
                             By.XPATH, text4_xpath).get_attribute("innerText")
 
-                        if (keyword in text1):
+                        if (keyword in text1):                            
                             button = './/*[@id="'+article_id + \
                                 '"]/div/div/div/button[1]'
                             print("使用第一招")
                         elif (keyword in text2):
+
                             button = './/*[@id="'+article_id + \
                                 '"]/div/div/div/button[2]'
                             print("使用第二招")
                         elif (keyword in text3):
+
                             button = './/*[@id="'+article_id + \
                                 '"]/div/div/div/button[3]'
                             print("使用第三招")
                         elif (keyword in text4):
+
                             button = './/*[@id="'+article_id + \
                                 '"]/div/div/div/button[4]'
                             print("使用第四招")
 
                         driver.find_element(
-                            By.CSS_SELECTOR,  button).click()
+                            By.XPATH,  button).click()
+
+                    # 需要的才抓
+                    # elif pokemon_number in want_catch_data or "shiny" in pokemon_url and not "xmas2022" in pokemon_url:
+                    #     # if True:
+                    #     # find pokemon name
+                    #     if pokemon_number_region != "0":
+                    #         pokemon_number = pokemon_number + "-" + pokemon_number_region
+
+                    #     for i in data:
+                    #         if (i["id"] == pokemon_number):
+                    #             pokemon_name = i["name"]
+                    #             chinese_name = i["chinese_name"]
+
+                    #     print("重要寶可夢：" + chinese_name)
+                    #     # print(article_id)
+                    #     article_selector = "#" + article_id + " > div > div > div > button"
+
+                    #     driver.find_element(
+                    #         By.CSS_SELECTOR,  article_selector).click()
+                    #     time.sleep(2)
+                    #     # 輸入名字
+                    #     input = wait.until(EC.presence_of_element_located(
+                    #         (By.CSS_SELECTOR, '#app-mount > div.appDevToolsWrapper-1QxdQf > div > div:nth-child(3) > div.layer-1Ixpg3 > div > div > div.content-2hZxGK.thin-31rlnD.scrollerBase-_bVAAt > div:nth-child(2) > div > div > div > div > input')))
+                    #     # input = driver.find_element(
+                    #     #     By.CSS_SELECTOR,  "#app-mount > div.appDevToolsWrapper-1QxdQf > div > div:nth-child(3) > div.layer-1Ixpg3 > div > div > div.content-2hZxGK.thin-31rlnD.scrollerBase-_bVAAt > div:nth-child(2) > div > div > div > div > input")
+                    #     input.send_keys(pokemon_name)
+                    #     # # 確認抓取
+                    #     wait.until(EC.presence_of_element_located(
+                    #         (By.CSS_SELECTOR, '#app-mount > div.appDevToolsWrapper-1QxdQf > div > div:nth-child(3) > div.layer-1Ixpg3 > div > div > div.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.footerSeparator-VzAYwb > button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.grow-2sR_-F')))
+                    #     driver.find_element(
+                    #         By.CSS_SELECTOR,  "#app-mount > div.appDevToolsWrapper-1QxdQf > div > div:nth-child(3) > div.layer-1Ixpg3 > div > div > div.flex-2S1XBF.flex-3BkGQD.horizontalReverse-60Katr.horizontalReverse-2QssvL.flex-3BkGQD.directionRowReverse-HZatnx.justifyStart-2Mwniq.alignStretch-Uwowzr.noWrap-hBpHBz.footer-31IekZ.footerSeparator-VzAYwb > button.button-f2h6uQ.lookFilled-yCfaCM.colorBrand-I6CyqQ.sizeMedium-2bFIHr.grow-2sR_-F").click()
+            time.sleep(2)
         except Exception as e:
-            time_count += 1
+            time_count+=1
             time.sleep(2)
             pass
 
 
 if __name__ == '__main__':
-    
     if(not os.path.isdir(os.path.join(base_path, "data"))):
         os.mkdir(os.path.join(base_path, "data"))
-
+    
     if (os.path.exists(os.path.join(base_path, "data", "account_data.json"))):
         f = open(os.path.join(base_path, "data",
                  "account_data.json"), encoding="utf-8")
@@ -170,40 +210,44 @@ if __name__ == '__main__':
         }
         with open(os.path.join(base_path, "data", "account_data.json"), "w") as outfile:
             json.dump(accuont_data, outfile)
-
+        
     username = input('請輸入DC帳號') or accuont_data["username"]
     print(username)
     userpassword = input('請輸入DC密碼') or accuont_data["userpassword"]
-    print(userpassword)    
-   
+    print(userpassword)
+    otp = click.confirm('你有OTP嗎', default=False)
+    print(otp)
+    broswer_value = click.confirm('你使用的瀏覽器(Chrome請選Y，Edge選N)', default=False)
+    print(broswer_value)
     value = click.confirm('要開啟瀏覽器嗎', default=True)
     print(value)
     channel_url = input(
         '要抓取頻道的網址') or accuont_data["channel_url"]
     print(channel_url)
 
-    broswer_origin_path = "C:\\Users\\" + os.getlogin() + "\\AppData\\Local\\Microsoft\\Edge\\User Data"
-    broswer_copy_folder_path = "C:\\Users\\" + os.getlogin() + "\\AppData\\Local\\Microsoft\\Edge\\User Data1"
-    
-    broswer_copy_path = "user-data-dir=C:\\Users\\" + os.getlogin() + "\\AppData\\Local\\Microsoft\\Edge\\User Data1"
-    
-    if(not os.path.isdir(broswer_copy_folder_path)):
-        shutil.copytree(broswer_origin_path, broswer_copy_folder_path)
-
-    
-    options = webdriver.EdgeOptions()
-    if not value:
-        options.add_argument("--headless")
-    options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    options.add_argument(
-        broswer_copy_path)
-    driver = webdriver.Edge(
-        EdgeChromiumDriverManager().install(), options=options)
+    if (broswer_value):
+        options = webdriver.ChromeOptions()
+        if not value:
+            options.add_argument("--headless")
+        options.add_experimental_option('excludeSwitches', ['enable-logging'])
+        # options.add_argument("--inprivate")
+        driver = webdriver.Chrome(
+            ChromeDriverManager().install(), options=options)
+    else:
+        options = webdriver.EdgeOptions()
+        if not value:
+            options.add_argument("--headless")
+        options.add_experimental_option('excludeSwitches', ['enable-logging'])
+        # options.add_argument("--inprivate")
+        options.add_argument(
+            "user-data-dir=C:\\Users\\w150l\\AppData\\Local\\Microsoft\\Edge\\User Data1")
+        driver = webdriver.Edge(
+            EdgeChromiumDriverManager().install(), options=options)
 
     driver.get(channel_url)
     wait = WebDriverWait(driver, 20)
-    
-    if (not os.path.isdir(broswer_copy_folder_path)):
+
+    if (not os.path.isdir("C:\\Users\\w150l\\AppData\\Local\\Microsoft\\Edge\\User Data1")):
         input = wait.until(EC.presence_of_element_located(
             (By.CSS_SELECTOR, '#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div > div > section > div.centeringWrapper-dGnJPQ > button.marginTop8-24uXGp.marginCenterHorz-574Oxy.linkButton-2ax8wP.button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F')))
         driver.find_element(By.CSS_SELECTOR,  "#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div > div > section > div.centeringWrapper-dGnJPQ > button.marginTop8-24uXGp.marginCenterHorz-574Oxy.linkButton-2ax8wP.button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorLink-1Md3RZ.sizeMin-DfpWCE.grow-2sR_-F").click()

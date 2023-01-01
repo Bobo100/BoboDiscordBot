@@ -37,7 +37,7 @@ f.close()
 def switch(lang):
     if lang == "Doduo":
         return "Icy Wind"
-    elif lang == "Zapdos-galar":
+    elif lang == "Galarian Zapdos":
         return "Moonblast"
     elif lang == "Dragonite":
         return "Freeze Dry"
@@ -45,7 +45,7 @@ def switch(lang):
         return "Iron Head"
     elif lang == "Slugma":
         return "Water Shuriken"
-    elif lang == "Ho-oh":
+    elif lang == "Ho-Oh":
         return "Thunder"
     elif lang == "Spinda":
         return "Close Combat"
@@ -128,7 +128,7 @@ def catch(driver):
                             '"]/div[contains(concat(" ",normalize-space(@class)," ")," container-3Sqbyb ")]/div/div/button[(count(preceding-sibling::*)+1) = 4]/div/div/div'
 
                         wait.until(EC.presence_of_element_located(
-                            (By.XPATH, text1_xpath)))
+                            (By.XPATH, text2_xpath)))
 
                         text1 = driver.find_element(
                             By.XPATH, text1_xpath).get_attribute("innerText")
@@ -175,7 +175,7 @@ def catch(driver):
                             print("使用第四招")
 
                         driver.find_element(
-                            By.CSS_SELECTOR,  button).click()
+                            By.XPATH,  button).click()
 
                         # text1 = "#" + article_id + \
                         #     " > div.container-3Sqbyb > div > div > button:nth-child(1) > div > div > div"

@@ -34,5 +34,11 @@ if __name__ == '__main__':
 
 # driver.get(channel_url)
 
-   
+    broswer_origin_path = "C:\\Users\\" + os.getlogin() + "\\AppData\\Local\\Microsoft\\Edge\\User Data"
+    broswer_copy_folder_path = "C:\\Users\\" + os.getlogin() + "\\AppData\\Local\\Microsoft\\Edge\\User Data1"
+    
+    broswer_copy_path = "user-data-dir=C:\\Users\\" + os.getlogin() + "\\AppData\\Local\\Microsoft\\Edge\\User Data1"
+    
+    if(os.path.isdir(broswer_copy_folder_path)):
+        print("true")
     print(os.getlogin())
