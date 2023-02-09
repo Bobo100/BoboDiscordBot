@@ -51,6 +51,7 @@ def switch(lang):
 
 def catch(driver):
     time_count = 0
+    id_list = []
     while True:
         try:
             base = driver.find_elements(
@@ -61,6 +62,7 @@ def catch(driver):
                 driver.execute_script(
                     "arguments[0].scrollIntoView(true);", lastbutton[-1])
                 # print("refresh")
+                id_list.clear()
                 time_count = 0
                 
             time_count += 1
@@ -74,6 +76,9 @@ def catch(driver):
                 article_id = base[temp].find_element(
                     By.XPATH, "../../../../../../..").get_attribute("id")
                 if article_id:
+                    if article_id in id_list:
+                        time_count-=1
+                        continue
 
                     if "xmas2022" in pokemon_url:
                         if pokemon_number_region != "0":
@@ -85,7 +90,6 @@ def catch(driver):
                                 chinese_name = i["chinese_name"]
                         print(f'快來和 {chinese_name} + 聖誕寶可夢，戰鬥啦')
                         # 按下join
-
                         article_selector = ".//*[@id='" + article_id + "']/div/div/div/button"
                         driver.find_element(
                             By.XPATH,  article_selector).click()
@@ -107,7 +111,7 @@ def catch(driver):
                             '"]/div[contains(concat(" ",normalize-space(@class)," ")," container-3Sqbyb ")]/div/div/button[(count(preceding-sibling::*)+1) = 4]/div/div/div'
 
                         wait.until(EC.presence_of_element_located(
-                            (By.XPATH, text1_xpath)))
+                            (By.XPATH, text2_xpath)))
 
                         text1 = driver.find_element(
                             By.XPATH, text1_xpath).get_attribute("innerText")
@@ -136,7 +140,9 @@ def catch(driver):
                             print("使用第四招")
 
                         driver.find_element(
-                            By.CSS_SELECTOR,  button).click()
+                            By.XPATH,  button).click()
+                        
+                        id_list.append(article_id)
         except Exception as e:
             time_count += 1
             time.sleep(2)

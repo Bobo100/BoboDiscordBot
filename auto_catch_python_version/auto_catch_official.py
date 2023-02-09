@@ -54,6 +54,7 @@ def switch(lang):
 
 def catch(driver):
     time_count = 0
+    id_list = []
     while True:
         try:
             base = driver.find_elements(
@@ -63,6 +64,7 @@ def catch(driver):
                 lastbutton = driver.find_elements(By.XPATH, '//*[@id="app-mount"]/div/div/div/div/div/div/div/div/div/div/div/main/div/div/div/ol/li')
                 driver.execute_script(
                     "arguments[0].scrollIntoView(true);", lastbutton[-1])
+                id_list.clear()
                 print("refresh")
                 time_count = 0
             
@@ -81,6 +83,10 @@ def catch(driver):
                 article_id = base[temp].find_element(
                     By.XPATH, "../../../../../../..").get_attribute("id")
                 if article_id:
+                    
+                    if article_id in id_list:
+                        time_count-=1
+                        continue
 
                     if "xmas2022" in pokemon_url:
                         if pokemon_number_region != "0":
@@ -92,9 +98,12 @@ def catch(driver):
                                 chinese_name = i["chinese_name"]
                         print("聖誕寶可夢，戰鬥啦" + chinese_name)
                         # 按下join
-                        article_selector = "#" + article_id + " > div > div > div > button"
+                        # article_selector = "#" + article_id + " > div > div > div > button"
+                        # driver.find_element(
+                        #     By.CSS_SELECTOR,  article_selector).click()
+                        article_selector = ".//*[@id='" + article_id + "']/div/div/div/button"
                         driver.find_element(
-                            By.CSS_SELECTOR,  article_selector).click()
+                            By.XPATH,  article_selector).click()
 
                         # 找正確的技能名稱
                         keyword = ""
@@ -129,23 +138,22 @@ def catch(driver):
                                 '"]/div/div/div/button[1]'
                             print("使用第一招")
                         elif (keyword in text2):
-
                             button = './/*[@id="'+article_id + \
                                 '"]/div/div/div/button[2]'
                             print("使用第二招")
                         elif (keyword in text3):
-
                             button = './/*[@id="'+article_id + \
                                 '"]/div/div/div/button[3]'
                             print("使用第三招")
                         elif (keyword in text4):
-
                             button = './/*[@id="'+article_id + \
                                 '"]/div/div/div/button[4]'
                             print("使用第四招")
 
                         driver.find_element(
                             By.XPATH,  button).click()
+                        
+                        id_list.append(article_id)
 
                     # 需要的才抓
                     # elif pokemon_number in want_catch_data or "shiny" in pokemon_url and not "xmas2022" in pokemon_url:
